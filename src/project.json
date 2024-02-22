@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "FOOD RECIPE APP",
+    "pitch": "Are you tired of constantly wasting food because you're not sure what to make with the ingredients you have on hand? Say goodbye to food waste and hello to Foodie - your ultimate food app for using what you already have in your pantry!",
+    "image": "https://github.com/RaphaGil/React-Portofolio/assets/128820385/65a49b1d-9a73-4d45-b295-225e01bd4ba1",
+    "deployedLink": "https://rgc1.github.io/Foodie-Recipes-App/",
+    "repoLink": "https://github.com/RGC1/Foodie-Recipes-App/"
+  },
+  {
+    "id": 2,
+    "title": "PLANNER APP",
+    "pitch": "A simple planner app that allows users to save events and tasks for the day or week.",
+    "image": "https://github.com/RaphaGil/Planner-App/assets/128820385/3657f736-ddcf-443e-8598-dc00c1748dfd",
+    "deployedLink": "https://raphagil.github.io/Planner-App/",
+    "repoLink": "https://github.com/RaphaGil/Planner-App"
+  },
+  {
+    "id": 3,
+    "title": "QUIZ GAME",
+    "pitch": "The quiz game comprises five questions centered around general knowledge.",
+    "image": "https://github.com/RaphaGil/Quiz-Game/assets/128820385/1bbe0608-3f13-4f38-9fe6-186bbf8c607a",
+    "deployedLink": "https://raphagil.github.io/Quiz-Game/",
+    "repoLink": "https://github.com/RaphaGil/Quiz-Game"
+  },
+  {
+    "id": 4,
+    "title": "WEATHER DASHBOARD",
+    "pitch": "A comprehensive weather forecast application that displays both the current weather and a 5-day forecast.",
+    "image": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/8b239242-6478-4bdc-9c24-01e411fc009e",
+    "deployedLink": "https://raphagil.github.io/Weather-Dashboard/",
+    "repoLink": "https://github.com/RaphaGil/Weather-Dashboard"
+  },
+  {
+    "id": 5,
+    "title": "EMPLOYEE INFORMATION",
+    "pitch": "",
+    "image": "",
+    "deployedLink": "",
+    "repoLink": ""
+  },
+  {
+    "id": 6,
+    "title": "BOOTSTRAP PORTFOLIO",
+    "pitch": "",
+    "image": "",
+    "deployedLink": "",
+    "repoLink": ""
+  }
+]

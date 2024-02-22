@@ -1,0 +1,61 @@
+/* Root variables */
+:root {
+  --oran-main: rgb(72, 188, 227);
+  --shadow-style: drop-shadow(0px 0px 20px rgba(12, 12, 12, 0.9));
+  --filter: drop-shadow(0px 0px 20px rgba(13, 12, 13, 0.9));
+}
+
+/* Navigation styles */
+.nav-link:hover,
+#about-contact img:hover,
+.skills img:hover {
+  transform: scale(1.19);
+  filter: var(--filter);
+ -webkit-filter:var(--shadow-style);
+}
+.nav-link:hover {
+  border-bottom: 1px solid white;
+}
+
+/* My profile section */
+.jumbotron-hero {
+  -webkit-filter:var(--shadow-style);
+  filter: var(--filter);
+}
+
+
+/* Projects style */
+.project1 {
+  background: rgb(146, 182, 143);
+}
+.project2 {
+  background: rgb(136, 184, 195);
+}
+.project3 {
+  background: rgb(160, 149, 234);
+}
+.project4 {
+  background: rgb(235, 177, 228);
+}
+.project5 {
+  background: rgb(242, 197, 199);
+}
+.img-size {
+  height: 50%;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+.btn:hover {
+  transform: scale(1.19);
+  -webkit-filter:var(--shadow-style);
+  filter: var(--filter);
+}
+
+/* Footer style */
+.bottom-btn {
+  float: right;
+  margin-right: 25px;
+  width: 40px;
+  height: 40px;
+}
