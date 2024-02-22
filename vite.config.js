@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/React-App-Portfolio/"
+    config.base = "/React/"
   }
 
   return config;
