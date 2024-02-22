@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MyNav from './components/Navbar';
-import {  About, Contact, Custom404, Home, ProjectGallery, Projects, Footer } from './components/Pages';
+import {  About, Contact, Custom404, Home, ProjectGallery, Projects } from './components/Pages';
+
+
 import './App.css'
 
 function App() {
@@ -15,7 +17,6 @@ function App() {
         <Route path='/404' element={<Custom404 />} />
         <Route path='' element={<Home />} />
         <Route path='/projects' element={<Projects />} />
-        <Route path='/footer' element={<Footer />} />
       </Routes>
     </Router>
   )
