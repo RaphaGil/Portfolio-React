@@ -1,12 +1,9 @@
 const Custom404 = () => {
   return (
     <>
-      <h1>
-        404: Oops! Page not found. Please, use the `Back` button to get back on
-        track!
-      </h1>
+    <h1>404 You've reached the undiscovered country! Please use your back button to go back.</h1>
     </>
-  );
-};
+  )
+}
 
 export default Custom404;

@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import projects from "../../project.json";
+import projects from "../../projects.json";
 import { useState } from "react"; // Import useState hook
 import { Button } from "react-bootstrap";
 import PageWrapper from "../PageWrapper/Index";

@@ -1,62 +1,23 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { About, Home, Custom404, Contacts, Projects } from "./components/Pages";
-import MyNavBar from "./components/NavBar/NavBar";
-import Footer from "./components/Footer/Footer";
-import PageWrapper from "./components/PageWrapper/Index";
-
-import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import MyNav from './components/Navbar';
+import {  About, Contact, Custom404, Home, ProjectGallery, Projects } from './components/Pages';
+import './App.css'
 
 function App() {
+
   return (
-    <BrowserRouter
-      basename={import.meta.env.DEV ? "/" : "/React"}
-    >
-      <MyNavBar />
+    <Router basename={`/`}>
+      <MyNav />
       <Routes>
-        <Route
-          path="/"
-          element={
-            <PageWrapper>
-              <Home />
-            </PageWrapper>
-          }
-        />
-        <Route
-          path="/about"
-          element={
-            <PageWrapper>
-              <About />
-            </PageWrapper>
-          }
-        />
-        <Route
-          path="/projects"
-          element={
-            <PageWrapper>
-              <Projects />
-            </PageWrapper>
-          }
-        />
-        <Route
-          path="/404"
-          element={
-            <PageWrapper>
-              <Custom404 />
-            </PageWrapper>
-          }
-        />
-        <Route
-          path="/contact"
-          element={
-            <PageWrapper>
-              <Contacts />
-            </PageWrapper>
-          }
-        />
+        <Route path='/portfolio' element={<ProjectGallery />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/404' element={<Custom404 />} />
+        <Route path='' element={<Home />} />
+        <Route path='/projects' element={<Projects />} />
       </Routes>
-      <Footer />
-    </BrowserRouter>
-  );
+    </Router>
+  )
 }
 
-export default App;
+export default App
