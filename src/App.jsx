@@ -3,7 +3,7 @@ import MyNav from './components/Navbar';
 import {  About, Contact, Custom404, Home, Projects } from './components/Pages';
 
 
-import './App.css/'
+import './App.css'
 
 function App() {
 
