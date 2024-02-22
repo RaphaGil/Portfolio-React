@@ -9,7 +9,7 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter
-      basename={import.meta.env.DEV ? "/" : "/React-App-Portfolio/"}
+      basename={import.meta.env.DEV ? "/" : "/React"}
     >
       <MyNavBar />
       <Routes>
