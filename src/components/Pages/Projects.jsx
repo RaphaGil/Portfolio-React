@@ -51,6 +51,7 @@ const Projects = () => {
                         style={{
                           border: "none",
                           margin: "10px",
+                          marginBottom: '50px',
                           color: hoverStates[`deployedLink_${project.id}`] ? "white" : "#ea5555",
                           backgroundColor: hoverStates[`deployedLink_${project.id}`] ? "#f6c6c2" : "#f6c6c2",
                           transition: "color 0.3s ease",
@@ -66,6 +67,7 @@ const Projects = () => {
                         style={{
                           border: "none",
                           margin: "10px",
+                          marginBottom: '50px',
                           color: hoverStates[`repoLink_${project.id}`] ? "white" : "#ea5555",
                           backgroundColor: hoverStates[`repoLink_${project.id}`] ? "#f6c6c2" : "#f6c6c2",
                           transition: "color 0.3s ease",
