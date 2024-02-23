@@ -53,7 +53,7 @@ const ContactForm = () => {
   </div>
   <div style={{ padding: '10px', margin: '10px' }}>
     <label style={{padding: '10px'}} htmlFor="message">Message:</label>
-    <textarea style={{ width: '50%', height: '200px'}}
+    <textarea style={{ width: '80%', height: '30%'}}
       id="message"
       name="message"
       value={formData.message}
