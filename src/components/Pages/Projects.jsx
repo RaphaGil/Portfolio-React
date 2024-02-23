@@ -27,14 +27,14 @@ const Projects = () => {
   return (
     <>
       <PageWrapper>
-        <h3 className="text-center">P R O J E C T S <br></br>G A L L E R Y </h3>
-        <p>______________________________</p>        
+        <h3 className="text-center text-light-emphasis">P R O J E C T S <br></br>G A L L E R Y </h3>
+        <p className="text-light-emphasis">______________________________</p>        
         <div className="text-center m-3">
-          <p>
+          <p className="text-light-emphasis">
             Discover my projects, meticulously crafted with React, React Router,
             JSON, JSX, JavaScript, HTML, CSS, and Bootstrap.
           </p>
-          <p>
+          <p className="text-light-emphasis">
             Simply click on the respective button to experience each project
             online, or delve deeper into its codebase on GitHub for further
             exploration.
@@ -45,20 +45,21 @@ const Projects = () => {
             <Col key={project.id}>
               <Card
                 className="h-100"
-                style={{ minWidth: "180px",  }}
+                style={{ minWidth: "180px",  backgroundColor: "#ea5555"}}
               >
                 <Card.Body>
                   <Card.Title
                     style={{
                       padding: "5px",
-                      color: "black",
+                      color: "#ffe7e7",
                       borderRadius: "15px",
-                      backgroundColor: '#fad334'
                     }}
                   >
                     {project.title}
                   </Card.Title>
-                  <Card.Text>{project.pitch}</Card.Text>
+                  <Card.Text
+                  style={{color:"#ffe7e7"}}
+                  >{project.pitch}</Card.Text>
                 </Card.Body>
 
                 <Card.Img
@@ -79,8 +80,8 @@ const Projects = () => {
                     style={{
                       border: "none",
                       margin: "10px",
-                      backgroundColor: "#fad334",
-                      color: hoverStates[`deployedLink_${project.id}`] ? "#7b681c" : "white", // Change text color based on hover state
+                      color: hoverStates[`deployedLink_${project.id}`] ?"white" : "#ea5555",
+                      backgroundColor: hoverStates[`deployedLink_${project.id}`] ? "#f6c6c2" : '#f6c6c2',
                       transition: "color 0.3s ease"
                     }}
                     onMouseEnter={() => handleMouseEnter(`deployedLink_${project.id}`)} // Set hover state to true on mouse enter
@@ -94,8 +95,8 @@ const Projects = () => {
                     style={{
                       border: "none",
                       margin: "10px",
-                      backgroundColor: "#fad334",
-                      color: hoverStates[`repoLink_${project.id}`] ? "#7b681c" : "white", // Change text color based on hover state
+                      color: hoverStates[`repoLink_${project.id}`] ?"white" : "#ea5555",
+                      backgroundColor: hoverStates[`repoLink_${project.id}`] ? "#f6c6c2" : '#f6c6c2',
                       transition: "color 0.3s ease"
                     }}
                     onMouseEnter={() => handleMouseEnter(`repoLink_${project.id}`)} // Set hover state to true on mouse enter

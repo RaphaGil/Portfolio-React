@@ -7,9 +7,9 @@ const Contact = () => {
   return (
     <section className="about-contact" id="about-contact">
       <div className="row mb-3 column-gap-3 align-items-center text-center">
-        <div className="col-md">
+        <div className="col-md text-light-emphasis">
           <h3>C O N T A C T <br></br> M E </h3>
-          <p>_______________________________</p>
+          <p className='text-light-emphasis'>_______________________________</p>
           <p>Get in touch with me via social media or email. If you prefer, submit a form below:</p>
           
           <div className='p-4'>

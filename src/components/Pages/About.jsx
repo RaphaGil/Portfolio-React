@@ -5,14 +5,14 @@ import { faLinkedin, faGithub, faCss3, faJs, faHtml5, faBootstrap, faNode, faRea
 const About = () => {
   return (
     <PageWrapper>
-      <h3>
+      <h3 className="text-light-emphasis">
         A B O U T <br></br> M E
       </h3>
       <p> __________________________ </p>
-      <div className="container text-center">
+      <div className="container text-center text-light-emphasis">
         <div className="row">
           <div className="col">
-            <p>
+            <p className='text-light-emphasis'>
               I'm diving into the world of <b>web development</b> at Edx Bootcamp
               in London. Believe it or not, I used to play with chemicals before
               this—mixing stuff up and watching the <b>magic happen</b>. But now,
@@ -21,7 +21,7 @@ const About = () => {
             </p>
           </div>
           <div className="col">
-            <p>
+            <p className="text-light-emphasis">
               So, I got curious and jumped headfirst into this coder universe.
               Turns out, turning ideas into cool websites feels like creating
               secret potions! I've got this knack for solving puzzles and making
@@ -33,10 +33,10 @@ const About = () => {
         </div>
       </div>
 
-      <h2>
+      <h2 className="text-light-emphasis">
         T E C H N I C A L <br></br> S K I L L S
       </h2>
-      <p> ___________________________________________</p>
+      <p className="text-light-emphasis"> ___________________________________________</p>
       <FontAwesomeIcon icon={faLinkedin} /> LinkedIn <br></br>
       <FontAwesomeIcon icon={faGithub} /> GitHub <br></br>
       <FontAwesomeIcon icon={faCss3} /> CSS 3 <br></br>
