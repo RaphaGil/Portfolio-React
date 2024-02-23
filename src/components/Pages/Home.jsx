@@ -10,7 +10,7 @@ const Home = () => {
         <img
           src={myImage}
           id="myProfile"
-          style={{ width: '350px', height: 'auto' }}
+          style={{ maxWidth: '50%', height: 'auto' }}
           alt="Professional profile picture of a person crossing arms"
         />
         <div className="body">
