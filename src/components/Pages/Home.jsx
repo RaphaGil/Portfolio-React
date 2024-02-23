@@ -7,7 +7,7 @@ const Home = () => {
           <img
             src={myImage}
             id="myProfile"
-            className="m-4 s-3  float-sm-start rounded-top-circle"
+            className="m-4 ms-3 xs-2 float-md-start rounded-top-circle"
             style={{ maxWidth: "350px", width: "50%", height: "auto" }}
             alt="Professional profile picture of a person crossing arms"
           />
