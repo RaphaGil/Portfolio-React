@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../../assets/img/me.jpeg";
 import CV from "../../assets/RaphaeladoAmaralGil.pdf"
 function MyNavBar() {
   return (
