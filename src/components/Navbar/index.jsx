@@ -1,55 +1,75 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom'; // Assuming you are using React Router for navigation
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import logo from "../../assets/img/me.jpeg";
+import CV from "../../assets/RaphaeladoAmaralGil.pdf";
 
-import CV from '../../assets/RaphaeladoAmaralGil.pdf';
-
-function MyNav() {
+function MyNavBar() {
   return (
-    <nav className="navbar navbar-expand-lg">
-      <div className="container-fluid">
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-1 mb-lg-0">
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/" activeClassName="active" aria-label="Home">
+    <>
+      <Navbar className="fixed-top">
+        <Container fluid> {/* Changed to fluid container */}
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ms-auto" style={{ width: "100%", justifyContent: "flex-end" }}> {/* Changed class and added styles */}
+              <Nav.Link
+                href="./"
+                style={{
+                  margin: "5px",
+                  borderRadius: "5px",
+                  color: "black",
+                }}
+              >
                 Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/about" activeClassName="active" aria-label="About me">
-                About Me
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/projects" activeClassName="active" aria-label="Projects">
+              </Nav.Link>
+              <Nav.Link
+                href="./about"
+                style={{
+                  margin: "5px",
+                  borderRadius: "5px",
+                  color: "black",
+                }}
+              >
+                About me
+              </Nav.Link>
+              <Nav.Link
+                href="./projects"
+                style={{
+                  margin: "5px",
+                  borderRadius: "5px",
+                  color: "black",
+                }}
+              >
                 Projects
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/contact" activeClassName="active" aria-label="Contact">
-                Contact
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href={CV} aria-label="Resume" target="_blank" rel="noopener noreferrer">
+              </Nav.Link>
+              <Nav.Link
+                href="./contact"
+                style={{
+                  margin: "5px",
+                  borderRadius: "5px",
+                  color: "black",
+                }}
+              >
+                Contacts
+              </Nav.Link>
+              <Nav.Link
+                href={CV}
+                style={{
+                  margin: "5px",
+                  borderRadius: "5px",
+                  color: "black",
+                }}
+              >
                 Resume
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+      <div style={{ height: "50px" }}></div>
+    </>
   );
 }
 
-export default MyNav;
+export default MyNavBar;

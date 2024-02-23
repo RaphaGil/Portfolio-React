@@ -7,7 +7,7 @@ import './App.css'
 function App() {
 
   return (
-    <Router basename={`/react`}>
+    <Router basename={`/`}>
       <MyNav />
       <Routes>
         <Route path='/contact' element={<Contact />} />
