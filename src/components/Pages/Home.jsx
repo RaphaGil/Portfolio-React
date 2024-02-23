@@ -1,5 +1,5 @@
 import myImage from '../../assets/img/me.png'; 
-import PageWrapper from "../PageWrapper/Index";// Adjust the path based on your project structure
+import PageWrapper from "../PageWrapper/Index";// 
 const Home = () => {
 
   return (
@@ -10,7 +10,6 @@ const Home = () => {
         <img
           src={myImage}
           id="myProfile"
-          className="m-4 ms-3 float-md-start float-end rounded-top-circle"
           style={{ width: '350px', height: 'auto' }}
           alt="Professional profile picture of a person crossing arms"
         />
