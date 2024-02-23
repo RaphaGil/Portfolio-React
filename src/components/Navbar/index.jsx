@@ -1,17 +1,20 @@
-import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import CV from "../../assets/RaphaeladoAmaralGil.pdf";
-
+import logo from "../../assets/img/me.jpeg";
+import CV from "../../assets/RaphaeladoAmaralGil.pdf"
 function MyNavBar() {
   return (
     <>
-      <Navbar className="fixed-top">
-        <Container fluid> {/* Changed to fluid container */}
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        className="fixed-top"
+      >
+        <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ms-auto" style={{ width: "100%", justifyContent: "flex-end" }}> {/* Changed class and added styles */}
+            <Nav className="me-auto">
               <Nav.Link
                 href="./"
                 style={{
@@ -26,6 +29,7 @@ function MyNavBar() {
                 href="./about"
                 style={{
                   margin: "5px",
+
                   borderRadius: "5px",
                   color: "black",
                 }}
@@ -36,6 +40,7 @@ function MyNavBar() {
                 href="./projects"
                 style={{
                   margin: "5px",
+
                   borderRadius: "5px",
                   color: "black",
                 }}
@@ -46,6 +51,7 @@ function MyNavBar() {
                 href="./contact"
                 style={{
                   margin: "5px",
+           
                   borderRadius: "5px",
                   color: "black",
                 }}
@@ -53,7 +59,7 @@ function MyNavBar() {
                 Contacts
               </Nav.Link>
               <Nav.Link
-                href={CV}
+                src={CV}
                 style={{
                   margin: "5px",
                   borderRadius: "5px",
