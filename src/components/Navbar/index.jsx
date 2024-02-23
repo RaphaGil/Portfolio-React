@@ -2,12 +2,11 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import CV from "../../assets/RaphaeladoAmaralGil.pdf"
+
 function MyNavBar() {
   return (
     <>
       <Navbar
-        collapseOnSelect
-        expand="lg"
         className="fixed-top"
       >
         <Container>
