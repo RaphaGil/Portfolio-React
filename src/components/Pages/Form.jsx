@@ -31,7 +31,7 @@ const ContactForm = () => {
     <form onSubmit={handleSubmit}>
   <div style={{ padding: '10px', }}> {/* Corrected syntax */}
     <label style={{padding: '10px'}}htmlFor="name">Name:</label>
-    <input  style={{ width: '500px'}}
+    <input  style={{ width: '50%'}}
       type="text"
       id="name"
       name="name"
@@ -42,7 +42,7 @@ const ContactForm = () => {
   </div>
   <div style={{ padding: '10px',  margin: '10px' }}>
     <label style={{padding: '10px'}} htmlFor="email">Email:</label>
-    <input style={{ width: '500px'}}
+    <input style={{ width: '50%'}}
       type="email"
       id="email"
       name="email"
@@ -53,7 +53,7 @@ const ContactForm = () => {
   </div>
   <div style={{ padding: '10px', margin: '10px' }}>
     <label style={{padding: '10px'}} htmlFor="message">Message:</label>
-    <textarea style={{ width: '500px', height: '200px'}}
+    <textarea style={{ width: '50%', height: '200px'}}
       id="message"
       name="message"
       value={formData.message}
