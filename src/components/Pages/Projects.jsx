@@ -40,7 +40,7 @@ const Projects = () => {
             exploration.
           </p>
         </div>
-        <Row xs={2} sm={3} md={2} className="g-4">
+        <Row xs={1} sm={3} md={2} className="g-4">
           {projects.map((project) => (
             <Col key={project.id}>
               <Card
