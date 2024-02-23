@@ -50,7 +50,7 @@ function MyNavBar() {
                 Contacts
               </Nav.Link>
               <Nav.Link
-                src={CV}
+                 href={CV}
                 style={{
                   margin: "5px",
                   borderRadius: "5px",
