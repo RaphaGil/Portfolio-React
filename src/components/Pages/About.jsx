@@ -37,14 +37,16 @@ const About = () => {
         T E C H N I C A L <br></br> S K I L L S
       </h2>
       <p className="text-light-emphasis"> ___________________________________________</p>
-      <FontAwesomeIcon icon={faLinkedin} /> LinkedIn <br></br>
-      <FontAwesomeIcon icon={faGithub} /> GitHub <br></br>
-      <FontAwesomeIcon icon={faCss3} /> CSS 3 <br></br>
-      <FontAwesomeIcon icon={faJs} /> JS <br></br>
-      <FontAwesomeIcon icon={faHtml5} /> HTML5 <br></br>
-      <FontAwesomeIcon icon={faBootstrap} /> Bootstrap <br></br>
-      <FontAwesomeIcon icon={faNode} /> Node <br></br>
-      <FontAwesomeIcon icon={faReact} /> React <br></br>
+      <div style={{ backgroundColor: '#fec6c2', padding: '5px', borderRadius: '5px', display: 'inline-block' }}>
+    <FontAwesomeIcon icon={faLinkedin} /> LinkedIn<br />
+    <FontAwesomeIcon icon={faGithub} /> GitHub <br />
+    <FontAwesomeIcon icon={faCss3} /> CSS 3 <br />
+    <FontAwesomeIcon icon={faJs} /> JS <br />
+    <FontAwesomeIcon icon={faHtml5} /> HTML5 <br />
+    <FontAwesomeIcon icon={faBootstrap} /> Bootstrap <br />
+    <FontAwesomeIcon icon={faNode} /> Node <br />
+    <FontAwesomeIcon icon={faReact} /> React <br />
+    </div>
     </PageWrapper>
   );
 };
