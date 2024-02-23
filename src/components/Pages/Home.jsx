@@ -1,8 +1,10 @@
-import myImage from '../../assets/img/me Background Removed.png'; // Adjust the path based on your project structure
+import myImage from '../../assets/img/me.png'; 
+import PageWrapper from "../PageWrapper/Index";// Adjust the path based on your project structure
 const Home = () => {
 
   return (
     <>
+     <PageWrapper>
     <section className="jumbotron-hero" id="hero">
       <div className="clearfix p-5 col-sm-12 col-md-12 col-lg-12 d-flex text-center align-items-center justify-content-center flex-column flex-md-row">
         <img
@@ -23,6 +25,7 @@ const Home = () => {
         </div>
       </div>
     </section>
+    </PageWrapper>
     </>
   )
 }
