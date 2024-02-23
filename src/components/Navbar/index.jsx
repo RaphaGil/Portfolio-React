@@ -6,20 +6,16 @@ import CV from "../../assets/RaphaeladoAmaralGil.pdf"
 function MyNavBar() {
   return (
     <>
-      <Navbar
-        className="fixed-top"
-      >
-        <Container>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link
-                href="./"
-                style={{
-                  margin: "5px",
-                  borderRadius: "5px",
-                  color: "black",
-                }}
+      <Navbar className='col-sm-12' style={{ width: '100%', backgroundColor: '#ffe7e7', height:'50px' }}>
+      <Container style={{ width: '100%' }}>
+        <Nav>
+          <Nav.Link
+            href="./"
+            style={{
+              margin: "5px",
+              borderRadius: "5px",
+              color: '#ea5555',
+            }}
               >
                 Home
               </Nav.Link>
@@ -27,9 +23,8 @@ function MyNavBar() {
                 href="./about"
                 style={{
                   margin: "5px",
-
                   borderRadius: "5px",
-                  color: "black",
+                  color: '#ea5555',
                 }}
               >
                 About me
@@ -38,9 +33,8 @@ function MyNavBar() {
                 href="./projects"
                 style={{
                   margin: "5px",
-
                   borderRadius: "5px",
-                  color: "black",
+                  color: '#ea5555',
                 }}
               >
                 Projects
@@ -49,9 +43,8 @@ function MyNavBar() {
                 href="./contact"
                 style={{
                   margin: "5px",
-           
                   borderRadius: "5px",
-                  color: "black",
+                  color: '#ea5555',
                 }}
               >
                 Contacts
@@ -61,13 +54,12 @@ function MyNavBar() {
                 style={{
                   margin: "5px",
                   borderRadius: "5px",
-                  color: "black",
+                  color: '#ea5555',
                 }}
               >
                 Resume
               </Nav.Link>
             </Nav>
-          </Navbar.Collapse>
         </Container>
       </Navbar>
       <div style={{ height: "50px" }}></div>

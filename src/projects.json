@@ -34,17 +34,17 @@
   {
     "id": 5,
     "title": "EMPLOYEE INFORMATION",
-    "pitch": "",
-    "image": "",
-    "deployedLink": "",
-    "repoLink": ""
+    "pitch": "The project involves transforming given starter code into a functional Node.js command-line application. This application will gather information about employees on a software engineering team and generate an HTML webpage displaying summaries for each person. Comprehensive tests have been provided to ensure all aspects of the code pass successfully.",
+    "image": "https://github.com/RaphaGil/Employee-Information/assets/128820385/205aef51-80b1-4059-8c10-4e5bbfbe1424",
+    "deployedLink": "https://raphagil.github.io/Employee-Information/",
+    "repoLink": "https://github.com/RaphaGil/Employee-Information"
   },
   {
     "id": 6,
     "title": "BOOTSTRAP PORTFOLIO",
-    "pitch": "",
-    "image": "",
-    "deployedLink": "",
-    "repoLink": ""
+    "pitch": "This portfolio serves as a reflection of my expertise and a gateway to the world of web development. Within this project, I've extensively explored the Bootstrap framework, meticulously crafting a responsive design adaptable across laptops and mobile devices.",
+    "image": "https://github.com/RaphaGil/React/assets/128820385/b5309673-b4ce-4a70-8f1a-8c3fd41433c9",
+    "deployedLink": "https://github.com/RaphaGil/bootstrap-portfolio",
+    "repoLink": "https://raphagil.github.io/bootstrap-portfolio/"
   }
 ]

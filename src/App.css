@@ -4,11 +4,11 @@
   margin: 0 auto;
   text-align: center;
   color: black; /* Semicolon added */
+  --my-pink-color: pink;
 }
 
 body {
-  background-image: url('./assets/img/Yellow Motivational Web Developer Facebook Cover-6.png');
-
+  background-image: url('./assets/img/1.png');
 }
 
 nav {

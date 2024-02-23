@@ -8,25 +8,25 @@ const ContactBtns = () => {
   return (
     <>
       <Button
-        style={{ margin: "5px" }}
-        href="https://uk.linkedin.com/in/raphaela-do-amaral-gil-0a9bb94"
+        style={{ margin: "5px", color: '#fec6c2', backgroundColor: '#ea5555', border: '0px' }}
+        href="https://www.linkedin.com/in/raphaela-do-amaral-gil-0a9bb945/"
       >
         <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
       </Button>
       <Button
-        style={{ margin: "5px" }}
+        style={{ margin: "5px", color: '#fec6c2', backgroundColor: '#ea5555', border: '0px' }}
         href="https://github.com/RaphaGil"
       >
         <FontAwesomeIcon icon={faGithub} /> GitHub
       </Button>
       <Button
-        style={{ margin: "5px" }}
+       style={{ margin: "5px", color: '#fec6c2', backgroundColor: '#ea5555', border: '0px' }}
         href="mailto:raphaela.gil@yahoo.com"
       >
         <FontAwesomeIcon icon={faEnvelope} /> Email Me
       </Button>
       <Button
-        style={{ margin: "5px" }}
+        style={{ margin: "5px", color: '#fec6c2', backgroundColor: '#ea5555', border: '0px' }}
         href={CV}
         download="RaphaeladoAmaralGil.pdf"
       >
