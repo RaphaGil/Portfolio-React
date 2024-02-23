@@ -4,8 +4,8 @@ const Home = () => {
 
   return (
     <>
-     <PageWrapper>
-    <section className="jumbotron-hero" id="hero">
+    <PageWrapper>
+      <section className="jumbotron-hero" id="hero">
       <div className="clearfix p-5 col-sm-12 col-md-12 col-lg-12 d-flex text-center align-items-center justify-content-center flex-column flex-md-row">
         <img
           src={myImage}
