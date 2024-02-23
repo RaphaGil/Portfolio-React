@@ -37,15 +37,33 @@ const About = () => {
         T E C H N I C A L <br></br> S K I L L S
       </h2>
       <p className="text-light-emphasis"> ___________________________________________</p>
-      <div style={{ backgroundColor: '#fec6c2', padding: '5px', borderRadius: '5px', display: 'inline-block' }}>
-    <FontAwesomeIcon icon={faLinkedin} /> LinkedIn<br />
-    <FontAwesomeIcon icon={faGithub} /> GitHub <br />
-    <FontAwesomeIcon icon={faCss3} /> CSS 3 <br />
-    <FontAwesomeIcon icon={faJs} /> JS <br />
-    <FontAwesomeIcon icon={faHtml5} /> HTML5 <br />
-    <FontAwesomeIcon icon={faBootstrap} /> Bootstrap <br />
-    <FontAwesomeIcon icon={faNode} /> Node <br />
-    <FontAwesomeIcon icon={faReact} /> React <br />
+      <div style={{ backgroundColor: '#fec6c2', padding: '15px', borderRadius: '5px', display: 'inline-block' }}>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+    <div style={{ marginRight: '20px' }}>
+      <FontAwesomeIcon icon={faLinkedin} /> LinkedIn |
+    </div>
+    <div style={{ marginRight: '20px' }}>
+      <FontAwesomeIcon icon={faGithub} /> GitHub |
+    </div>
+    <div style={{ marginRight: '20px' }}>
+      <FontAwesomeIcon icon={faCss3} /> CSS 3 |
+    </div>
+    <div style={{ marginRight: '20px' }}>
+      <FontAwesomeIcon icon={faJs} /> JS |
+    </div>
+    <div style={{ marginRight: '20px' }}>
+      <FontAwesomeIcon icon={faHtml5} /> HTML5 |
+    </div>
+    <div style={{ marginRight: '20px' }}>
+      <FontAwesomeIcon icon={faBootstrap} /> Bootstrap |
+    </div>
+    <div style={{ marginRight: '20px' }}>
+      <FontAwesomeIcon icon={faNode} /> Node |
+    </div>
+    <div style={{ marginRight: '20px' }}>
+      <FontAwesomeIcon icon={faReact} /> React 
+    </div>
+  </div>
     </div>
     </PageWrapper>
   );
