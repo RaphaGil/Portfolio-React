@@ -40,25 +40,25 @@ const About = () => {
       <div style={{ backgroundColor: '#fec6c2', padding: '15px', borderRadius: '5px', display: 'inline-block' }}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
     <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faLinkedin} /> LinkedIn |
+      <FontAwesomeIcon icon={faLinkedin} /> LinkedIn|
     </div>
     <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faGithub} /> GitHub |
+      <FontAwesomeIcon icon={faGithub} /> GitHub|
     </div>
     <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faCss3} /> CSS 3 |
+      <FontAwesomeIcon icon={faCss3} /> CSS 3|
     </div>
     <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faJs} /> JS |
+      <FontAwesomeIcon icon={faJs} /> JS|
     </div>
     <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faHtml5} /> HTML5 |
+      <FontAwesomeIcon icon={faHtml5} /> HTML5|
     </div>
     <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faBootstrap} /> Bootstrap |
+      <FontAwesomeIcon icon={faBootstrap} /> Bootstrap|
     </div>
     <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faNode} /> Node |
+      <FontAwesomeIcon icon={faNode} /> Node|
     </div>
     <div style={{ marginRight: '20px' }}>
       <FontAwesomeIcon icon={faReact} /> React 
