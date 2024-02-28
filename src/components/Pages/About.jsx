@@ -37,33 +37,19 @@ const About = () => {
         T E C H N I C A L <br></br> S K I L L S
       </h2>
       <p className="text-light-emphasis"> ___________________________________________</p>
-      <div style={{ backgroundColor: '#fec6c2', padding: '15px', borderRadius: '5px', display: 'inline-block' }}>
-      <div style={{ display: 'flex', alignItems: 'center' }}>
-    <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faLinkedin} /> LinkedIn|
-    </div>
-    <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faGithub} /> GitHub|
-    </div>
-    <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faCss3} /> CSS 3|
-    </div>
-    <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faJs} /> JS|
-    </div>
-    <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faHtml5} /> HTML5|
-    </div>
-    <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faBootstrap} /> Bootstrap|
-    </div>
-    <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faNode} /> Node|
-    </div>
-    <div style={{ marginRight: '20px' }}>
-      <FontAwesomeIcon icon={faReact} /> React 
-    </div>
-  </div>
+
+      <div className="container" style={{ backgroundColor: '#ea5555', padding: '15px', borderRadius: '5px'}}>
+      <div style={{ color: '#fec6c2' }}>
+  <FontAwesomeIcon style={{ marginLeft: '25px', fontSize: '24px'}} icon={faLinkedin} /> 
+  <FontAwesomeIcon style={{ marginLeft: '25px', fontSize: '24px'}} icon={faGithub} />
+  <FontAwesomeIcon style={{ marginLeft: '25px', fontSize: '24px'}} icon={faCss3} /> 
+  <FontAwesomeIcon style={{ marginLeft: '25px', fontSize: '24px'}} icon={faJs} /> 
+  <FontAwesomeIcon style={{ marginLeft: '25px', fontSize: '24px'}} icon={faHtml5} /> 
+  <FontAwesomeIcon style={{ marginLeft: '25px', fontSize: '24px'}} icon={faBootstrap} /> 
+  <FontAwesomeIcon style={{ marginLeft: '25px', fontSize: '24px'}} icon={faNode} /> 
+  <FontAwesomeIcon style={{ marginLeft: '25px', fontSize: '24px'}} icon={faReact} />  
+</div>
+
     </div>
     </PageWrapper>
   );

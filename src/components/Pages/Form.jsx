@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-
+import React, { useState } from "react";
 const ContactForm = () => {
   // Initialize state for form fields
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
+    email: "",
+    exampleSelect: "",
+    exampleMultipleSelect: [],
+    exampleTextarea: ""
   });
 
   // Update form field state on input change
@@ -21,47 +21,51 @@ const ContactForm = () => {
     console.log(formData);
     // Optionally, reset form fields after submission
     setFormData({
-      name: '',
-      email: '',
-      message: ''
+      email: "",
+      exampleSelect: "",
+      exampleMultipleSelect: [],
+      exampleTextarea: ""
     });
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-  <div style={{ padding: '10px', }}> {/* Corrected syntax */}
-    <label style={{padding: '10px'}}htmlFor="name">Name:</label>
-    <input  style={{ width: '50%'}}
-      type="text"
+    <form onSubmit={handleSubmit} style={{display: "flex", flexDirection: "column", alignItems: "center", textAlign: "left" }}>
+  <div className="form-group" style={{minWidth: '80%'}}>
+    <label htmlFor="name">Name</label>
+    <input
+      type="name"
+      className="form-control"
       id="name"
       name="name"
       value={formData.name}
       onChange={handleInputChange}
-      required
+      placeholder="Enter your name"
     />
   </div>
-  <div style={{ padding: '10px',  margin: '10px' }}>
-    <label style={{padding: '10px'}} htmlFor="email">Email:</label>
-    <input style={{ width: '50%'}}
+  <div className="form-group" style={{minWidth: '80%'}}>
+    <label htmlFor="email">Email address</label>
+    <input
       type="email"
+      className="form-control"
       id="email"
       name="email"
       value={formData.email}
       onChange={handleInputChange}
-      required
+      placeholder="Enter your email"
     />
   </div>
-  <div style={{ padding: '10px', margin: '10px' }}>
-    <label style={{padding: '10px'}} htmlFor="message">Message:</label>
-    <textarea style={{ width: '80%', height: '30%'}}
-      id="message"
-      name="message"
-      value={formData.message}
+  <div className="form-group" style={{minWidth: '80%'}}>
+    <label htmlFor="exampleTextarea">Your Message</label>
+    <textarea
+      className="form-control"
+      id="exampleTextarea"
+      name="exampleTextarea"
+      rows="3"
+      value={formData.exampleTextarea}
       onChange={handleInputChange}
-      required
-    />
+    ></textarea>
   </div>
-  <button type="submit" style={{ margin: "5px", color: '#fec6c2', backgroundColor: '#ea5555', border: '0px' }} className="btn btn-primary">Submit</button>
+  <button type="submit" className="btn" style={{ marginTop: '15px', color: '#fec6c2', backgroundColor: '#ea5555', border: '0px' }}>Submit</button>
 </form>
 
   );

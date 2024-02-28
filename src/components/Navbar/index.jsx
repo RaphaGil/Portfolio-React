@@ -16,6 +16,7 @@ function MyNavBar() {
               borderRadius: "5px",
               color: '#ea5555',
             }}
+            className="NavLink"
               >
                 Home
               </Nav.Link>
@@ -26,6 +27,7 @@ function MyNavBar() {
                   borderRadius: "5px",
                   color: '#ea5555',
                 }}
+                className="NavLink"
               >
                 About me
               </Nav.Link>
@@ -36,6 +38,7 @@ function MyNavBar() {
                   borderRadius: "5px",
                   color: '#ea5555',
                 }}
+                className="NavLink"
               >
                 Projects
               </Nav.Link>
@@ -46,6 +49,7 @@ function MyNavBar() {
                   borderRadius: "5px",
                   color: '#ea5555',
                 }}
+                className="NavLink"
               >
                 Contacts
               </Nav.Link>
@@ -56,6 +60,7 @@ function MyNavBar() {
                   borderRadius: "5px",
                   color: '#ea5555',
                 }}
+                className="NavLink"
               >
                 Resume
               </Nav.Link>

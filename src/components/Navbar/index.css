@@ -1,3 +1,4 @@
-.Nav.Link:hover {
-  color: #ff0000; /* Change the color to red on hover */
+.NavLink:hover {
+  text-decoration: underline; /* Add underline on hover */
+  transition: all 0.3s ease;/* Add transition for smooth effect */
 }
