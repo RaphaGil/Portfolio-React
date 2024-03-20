@@ -38,7 +38,7 @@ Navigation and Features:
 - The portfolio includes a navigational menu where clicking on specific items seamlessly scrolls users to corresponding sections.
 - A dedicated menu item showcases my resume in a new pdf file.
 - Individual project showcases allow users to interact with and explore the various projects. Clicking on project images redirects users to live demos or respective GitHub repositories.
-- Responsive Design: The page layout dynamically adjusts to different screen sizes and devices, ensuring a seamless viewing experience across various viewports.
+- Responsive Design: The page layout dynamically adjusts to different screen sizes and devices, ensuring a seamless viewing experience across various viewport.
 - React Implementation Guide: Step-by-step instructions on implementing and utilizing React, empowering you to leverage its powerful features efficiently.
 - Integration of React Framework with CSS: Learn the effective integration of React framework alongside CSS for a personalized and enhanced styling experience.
 - Interactive Hover Effects and Link Usage: Exploring the utilization of hover effects and optimal link utilization to enhance user interactivity and navigation flow.
@@ -58,5 +58,5 @@ This project is licensed under the MIT License. The MIT License is an open-sourc
 
 [Portfolio - React Portfolio](https://raphagil.github.io/Portfolio-React/) - Raphaela Gil 
 ## Contact Information
-If you're interested in sharing ideas, experiences, or collaborating on projects, please feel free to get in touch via email at raphaela.gil@yahoo.com or [LinkedIn](https://www.linkedin.com/in/raphaela-do-amaral-gil-0a9bb945/ ). You can also check my github profile at [RaphaGil](https://github.com/RaphaGil).
+If you're interested in sharing ideas, experiences, or collaborating on projects, please feel free to get in touch via email at raphaela.gil@yahoo.com or [LinkedIn](https://www.linkedin.com/in/raphaela-do-amaral-gil-0a9bb945/). You can also check my github profile at [RaphaGil](https://github.com/RaphaGil).
 

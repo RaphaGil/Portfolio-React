@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Row, Col, Button, Carousel } from "react-bootstrap";
+import { Card, Col, Button, Carousel } from "react-bootstrap";
 import projects from "../../projects.json";
 import { useState } from "react"; // Import useState hook
 import PageWrapper from "../PageWrapper/Index";
