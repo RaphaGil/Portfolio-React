@@ -3,7 +3,7 @@
     "id": 1,
     "title": "FOOD RECIPE APP",
     "pitch": "Are you tired of constantly wasting food because you're not sure what to make with the ingredients you have on hand? Say goodbye to food waste and hello to Foodie - your ultimate food app for using what you already have in your pantry!",
-    "image": "https://github.com/RaphaGil/React-Portofolio/assets/128820385/65a49b1d-9a73-4d45-b295-225e01bd4ba1",
+    "image": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/b183fa96-f93f-46f3-a509-c68e7f750352",
     "deployedLink": "https://rgc1.github.io/Foodie-Recipes-App/",
     "repoLink": "https://github.com/RGC1/Foodie-Recipes-App/"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "WEATHER DASHBOARD",
     "pitch": "A comprehensive weather forecast application that displays both the current weather and a 5-day forecast.",
-    "image": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/8b239242-6478-4bdc-9c24-01e411fc009e",
+    "image": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/1fb3c2dc-286c-4c56-9a39-eae0f357b419",
     "deployedLink": "https://raphagil.github.io/Weather-Dashboard/",
     "repoLink": "https://github.com/RaphaGil/Weather-Dashboard"
   },
@@ -46,5 +46,13 @@
     "image": "https://github.com/RaphaGil/React/assets/128820385/b5309673-b4ce-4a70-8f1a-8c3fd41433c9",
     "deployedLink": "https://raphagil.github.io/bootstrap-portfolio/",
     "repoLink": "https://github.com/RaphaGil/bootstrap-portfolio/"
+  },
+  {
+    "id": 6,
+    "title": "TRENDOO",
+    "pitch": "Trendoo was invented as a trendy, avant-garde fashion label known for its innovative designs and cutting-edge styles. Our mission is to provide a seamless online shopping experience for individuals who appreciate quality and unique clothing options.",
+    "image": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/38d7458a-3d19-4d57-8e24-3566210c64d9",
+    "deployedLink": "https://trendoo.netlify.app/",
+    "repoLink": "https://github.com/RaphaGil/TrendooEshopApp"
   }
 ]

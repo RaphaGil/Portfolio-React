@@ -23,14 +23,8 @@ To set up and view this project locally, follow these simple steps:
 
 ## Screenshots
 ### Dashboard Overview
-![Raphaela React Portfolio]()
+![Raphaela React Portfolio](https://github.com/RaphaGil/Portfolio-React/assets/128820385/bbf46bb0-3206-490a-8c7b-00d99c8e2493)
 *Caption: Overview of the project's main dashboard displaying real-time data.*
-### Menu nav bar
-![Nav]()
-*Caption: Detailed view of a navbar, showcasing links options.*
-### Footer links
-![Footer]()
-*Caption: Detailed view of a footer, showcasing links icons options plus go to top bottom.*
 
 ## Usage
 Navigation and Features:
@@ -62,7 +56,7 @@ If you're also on the journey of learning web development and wish to contribute
 ## License
 This project is licensed under the MIT License. The MIT License is an open-source license widely used for software projects. It is known for its permissive nature, allowing users to freely use, modify, distribute, and sublicense the software without significant legal restrictions.
 
-[Portfolio - React Portfolio]() - Raphaela Gil 
+[Portfolio - React Portfolio](https://raphagil.github.io/Portfolio-React/) - Raphaela Gil 
 ## Contact Information
 If you're interested in sharing ideas, experiences, or collaborating on projects, please feel free to get in touch via email at raphaela.gil@yahoo.com or [LinkedIn](https://www.linkedin.com/in/raphaela-do-amaral-gil-0a9bb945/ ). You can also check my github profile at [RaphaGil](https://github.com/RaphaGil).
 
