@@ -23,7 +23,7 @@ To set up and view this project locally, follow these simple steps:
 
 ## Screenshots
 ### Dashboard Overview
-![Raphaela React Portfolio]()
+![Raphaela React Portfolio](https://github.com/RaphaGil/Portfolio-React/assets/128820385/26a2b2d3-083f-4f75-abc9-192ade49bed9)
 *Caption: Overview of the project's main dashboard displaying real-time data.*
 
 ## Usage
