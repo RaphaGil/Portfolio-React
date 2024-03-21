@@ -8,7 +8,7 @@ function App() {
 
   return (
     <BrowserRouter
-    basename={import.meta.env.DEV ? "/" : "/React/"}
+    basename={import.meta.env.DEV ? "/" : "/Portfolio-React/"}
   >
     <MyNav />
     <Routes>
