@@ -1,7 +1,7 @@
 # React-Portfolio
 
 ## Description
-Welcome to my portfolio, showcasing the skills and knowledge I've gained through my Front End Web Developer Bootcamp. This portfolio serves as a reflection of my expertise and a gateway to the world of web development. Within this project, I've extensively explored the React framework, meticulously crafting a responsive design adaptable across laptops and mobile devices. Seamlessly integrated smooth navigation links enable effortless scrolling to distinct sections of the user interface (UI). Here, you'll witness firsthand my dedication to creating dynamic, user-centric web experiences through skillful utilization of React, responsive design principles, and intuitive navigation elements.
+Welcome to my portfolio, showcasing the skills and knowledge I've gained through my Frontend Web Developer Bootcamp. This portfolio serves as a reflection of my expertise and a gateway to the world of web development. Within this project, I've extensively explored the React framework, meticulously crafting a responsive design adaptable across laptops and mobile devices. Seamlessly integrated smooth navigation links enable effortless scrolling to distinct sections of the user interface (UI). Here, you'll witness firsthand my dedication to creating dynamic, user-centric web experiences through skillful utilization of React, responsive design principles, and intuitive navigation elements.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -23,7 +23,7 @@ To set up and view this project locally, follow these simple steps:
 
 ## Screenshots
 ### Dashboard Overview
-![Raphaela React Portfolio](https://github.com/RaphaGil/Portfolio-React/assets/128820385/bbf46bb0-3206-490a-8c7b-00d99c8e2493)
+![Raphaela React Portfolio]()
 *Caption: Overview of the project's main dashboard displaying real-time data.*
 
 ## Usage
