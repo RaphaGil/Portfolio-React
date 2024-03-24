@@ -41,7 +41,7 @@ const Projects = () => {
           {projects.map((project) => (
             <Carousel.Item key={project.id}>
                 <Col>
-                  <Card className="h-100" style={{ backgroundColor: "#ea5555" }}>
+                  <Card className="h-100" style={{ backgroundColor: "#ea5555", border:'none' }}>
                   <Card.Img className='d-block w-70' variant="top" src={project.image} style={{ height: "70%", objectFit: "fill" }} />
                       <Card.Title style={{ padding: "5px", color: "#ffe7e7", borderRadius: "15px" }}>{project.title}</Card.Title>                    
                     <div style={{ display: "flex", justifyContent: "center" }}>

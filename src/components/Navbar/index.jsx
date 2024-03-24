@@ -1,73 +1,42 @@
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import CV from "../../assets/RaphaeladoAmaralGil.pdf"
-import './index.css'
+import CV from "../../assets/RaphaeladoAmaralGil.pdf";
+import "./index.css";
+
 function MyNavBar() {
   return (
     <>
-      <Navbar className='col-sm-12' style={{ width: '100%', backgroundColor: '#ffe7e7', height:'50px' }}>
-      <Container style={{ width: '100%' }}>
-        <Nav>
-          <Nav.Link
-            href="./"
-            style={{
-              margin: "5px",
-              borderRadius: "5px",
-              color: '#ea5555',
-            }}
-            className="NavLink"
-              >
+      <Navbar
+        collapseOnSelect
+        expand="md"
+        className="navbar flex row p-2"
+        style={{ backgroundColor: "#ffe7e7"}}
+      >
+        <Container>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="./" className="NavLink">
                 Home
               </Nav.Link>
-              <Nav.Link
-                href="./about"
-                style={{
-                  margin: "5px",
-                  borderRadius: "5px",
-                  color: '#ea5555',
-                }}
-                className="NavLink"
-              >
+              <Nav.Link href="./about" className="NavLink">
                 About me
               </Nav.Link>
-              <Nav.Link
-                href="./projects"
-                style={{
-                  margin: "5px",
-                  borderRadius: "5px",
-                  color: '#ea5555',
-                }}
-                className="NavLink"
-              >
+              <Nav.Link href="./projects" className="NavLink">
                 Projects
               </Nav.Link>
-              <Nav.Link
-                href="./contact"
-                style={{
-                  margin: "5px",
-                  borderRadius: "5px",
-                  color: '#ea5555',
-                }}
-                className="NavLink"
-              >
+              <Nav.Link href="./contact" className="NavLink">
                 Contacts
               </Nav.Link>
-              <Nav.Link
-                 href={CV}
-                style={{
-                  margin: "5px",
-                  borderRadius: "5px",
-                  color: '#ea5555',
-                }}
-                className="NavLink"
-              >
+              <Nav.Link href={CV} className="NavLink">
                 Resume
               </Nav.Link>
             </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div style={{ height: "50px" }}></div>
     </>
   );
 }

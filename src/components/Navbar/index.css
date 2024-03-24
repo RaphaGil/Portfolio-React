@@ -1,4 +1,6 @@
 .NavLink:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
+  padding: 5px; /* Add underline on hover */
   transition: all 0.3s ease;/* Add transition for smooth effect */
 }
+
