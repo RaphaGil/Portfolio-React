@@ -80,7 +80,6 @@ const Projects = () => {
                     </div>
                   </Card>
                 </Col>
-      
             </Carousel.Item>
           ))}
         </Carousel>

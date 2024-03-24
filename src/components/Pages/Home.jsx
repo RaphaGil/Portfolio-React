@@ -22,6 +22,7 @@ const Home = () => {
             Welcome to my <b>portfolio</b>. This is my webpage where I share side projects that I've been working on.
           </p>
         </div>
+        
       </div>
     </section>
     </PageWrapper>

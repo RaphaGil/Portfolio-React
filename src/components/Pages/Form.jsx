@@ -87,9 +87,8 @@ const ContactForm = () => {
         <FontAwesomeIcon
           icon={faArrowRight}
           style={{
-            position: 'absolute',
-      
-            right: isHovered ? '0px' : '12', // Move arrow to the right when hovered
+            position: 'relative',
+            right: isHovered ? '-15px' : '-10', // Move arrow to the right when hovered
             transition: 'right 0.3s' // Add transition for smooth movement
           }}
         />
