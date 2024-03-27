@@ -7,9 +7,6 @@ function ProjectCard({ project }) {
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>{project.title}</Card.Title>
-        <Card.Text>
-          {project.pitch}
-        </Card.Text>
           <a href=''><Button variant="primary">Repo</Button></a>
         <a href=''><Button variant="primary">Deployed site</Button></a>
       </Card.Body>

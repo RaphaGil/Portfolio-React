@@ -32,8 +32,7 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "left", fontSize: '18px'}}>
-      <div className="form-group" style={{ minWidth: '80%' }}>
-        <label htmlFor="name">Name:</label>
+      <div className="form-group" style={{ minWidth: '80%', marginBottom: '10px' }}>
         <input
           type="name"
           className="form-control"
@@ -49,8 +48,7 @@ const ContactForm = () => {
           placeholder="Enter your name"
         />
       </div>
-      <div className="form-group" style={{ minWidth: '80%' }}>
-        <label htmlFor="email">Email address:</label>
+      <div className="form-group" style={{ minWidth: '80%' ,marginBottom: '10px'}}>
         <input
           type="email"
           className="form-control"
@@ -67,7 +65,6 @@ const ContactForm = () => {
         />
       </div>
       <div className="form-group" style={{ minWidth: '80%' }}>
-        <label htmlFor="exampleTextarea">Your Message:</label>
         <textarea
           className="form-control"
           style={{
@@ -80,6 +77,7 @@ const ContactForm = () => {
           rows="3"
           value={formData.exampleTextarea}
           onChange={handleInputChange}
+          placeholder="Enter your message"
         ></textarea>
       </div>
       <button

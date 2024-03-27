@@ -12,7 +12,7 @@ import {
 const About = () => {
   return (
     <PageWrapper>
-      <h3 className="text-light-emphasis p-4 mt-5">
+      <h3 className="text-light-emphasis p-4 mt-2">
         A B O U T <br></br> M E
       </h3>
       <div className="container text-center text-light-emphasis">
@@ -49,7 +49,7 @@ const About = () => {
         style={{
           padding: "15px",
           borderRadius: "5px",
-          width: "30%",
+          width: "50%",
         }}
       >
         <div

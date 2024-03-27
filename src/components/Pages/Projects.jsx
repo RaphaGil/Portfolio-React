@@ -9,8 +9,8 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Projects = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
 
-  const handleMouseEnter = (projectId, pitch) => {
-    setHoveredCard({ id: projectId, pitch: pitch });
+  const handleMouseEnter = (projectId) => {
+    setHoveredCard({ id: projectId});
   };
 
   const handleMouseLeave = () => {
@@ -31,11 +31,11 @@ const Projects = () => {
         </div>
         <Row>
           {projects.map((project) => (
-            <Col lg={6} key={project.id && project.pitch}>
+            <Col lg={6} key={project.id}>
               <Card
                 className="mb-4 position-relative shadow"
-                style={{ backgroundColor: "none", borderRadius: "25px" }}
-                onMouseEnter={() => handleMouseEnter(project.id, project.pitch)}
+                style={{ backgroundColor: "none", borderRadius: "25px"}}
+                onMouseEnter={() => handleMouseEnter(project.id)}
                 onMouseLeave={handleMouseLeave}
               >
                 <Card.Img
@@ -44,34 +44,32 @@ const Projects = () => {
                   src={project.image}
                   style={{
                     width: "100%",
-                    height: "auto",
+                    height: 'auto',
                     borderRadius: "25px",
                   }}
                 />
                 {hoveredCard &&
-                  hoveredCard.id === project.id &&
-                  hoveredCard.pitch && (
+                  hoveredCard.id === project.id && (
                     <div
                       className="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
                       style={{ backgroundColor: "white", borderRadius: "25px" }}
                     >
-                      <Card.Body className="text-center">
+                      <Card.Body className="text-center" style={{width: '100%'}}>
                         <Card.Title
                           style={{
                             padding: "5px",
                             color: "darkgray",
                             borderRadius: "15px",
                             fontWeight: "bold",
+                            fontSize: "4wv",
                           }}
                         >
                           {project.title}
                         </Card.Title>
                         <Card.Text
                           style={{
-                            padding: "5px",
                             color: "darkgray",
-                            borderRadius: "15px",
-                            fontSize: "20px",
+                            fontSize: "4wv",
                           }}
                         >
                           {project.pitch}
@@ -86,7 +84,7 @@ const Projects = () => {
                             border: 'none',
                             }}
                           >
-                            <FontAwesomeIcon icon={faGlobe} style={{color:'pink', height: '25px'}}/>
+                            <FontAwesomeIcon icon={faGlobe} style={{color:'pink', height: '40wv'}}/>
                           </Button>
                           <Button
                             href={project.repoLink}
@@ -95,7 +93,7 @@ const Projects = () => {
                             border: 'none', }}
                             className="github-link"
                           >
-                          <FontAwesomeIcon icon={faGithub} style={{ color:'pink', height:'25px' }} />
+                          <FontAwesomeIcon icon={faGithub} style={{ color:'pink', height:'40wv' }} />
                           </Button>
                           
                         </div>
