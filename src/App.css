@@ -12,8 +12,8 @@
 
 body {
   background-image: url('./assets/img/background.png');
-  background-size:contain;
-
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Do not repeat the background image */
 
 }
 
