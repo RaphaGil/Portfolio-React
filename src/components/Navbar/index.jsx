@@ -17,7 +17,7 @@ function MyNavBar() {
       >
         <Container>
           {/* Logo on the left side */}
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="./">
             <img
               src={Logo} // Set the source of the logo image
               height="55"

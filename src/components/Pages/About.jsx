@@ -1,8 +1,6 @@
 import PageWrapper from "../PageWrapper/Index";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faLinkedin,
-  faGithub,
   faCss3,
   faJs,
   faHtml5,
