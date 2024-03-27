@@ -1,6 +1,4 @@
 .NavLink:hover {
-  text-decoration: underline;
-  /* padding: 5px; Add underline on hover */
-  transition: all 0.3s ease
+  text-shadow: 0 0 20px rgba(17, 16, 17, 0.3);
+  font-style: italic;
 }
-

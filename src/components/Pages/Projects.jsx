@@ -1,88 +1,111 @@
-import React from "react";
-import { Card, Col, Button, Carousel } from "react-bootstrap";
+import React, { useState } from "react";
+import { Card, Col, Button, Row } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import projects from "../../projects.json";
-import { useState } from "react"; // Import useState hook
 import PageWrapper from "../PageWrapper/Index";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Projects = () => {
-  const [hoverStates, setHoverStates] = useState({});
+  const [hoveredCard, setHoveredCard] = useState(null);
 
-  const handleMouseEnter = (buttonId) => {
-    setHoverStates((prevState) => ({
-      ...prevState,
-      [buttonId]: true,
-    }));
+  const handleMouseEnter = (projectId, pitch) => {
+    setHoveredCard({ id: projectId, pitch: pitch });
   };
 
-  const handleMouseLeave = (buttonId) => {
-    setHoverStates((prevState) => ({
-      ...prevState,
-      [buttonId]: false,
-    }));
+  const handleMouseLeave = () => {
+    setHoveredCard(null);
   };
 
   return (
     <>
       <PageWrapper>
-        <h3 className="text-center text-light-emphasis">P R O J E C T S <br />G A L L E R Y </h3>
-        <p className="text-light-emphasis">______________________________</p>        
-        <div className="text-center m-3">
+        <h3 className="text-center text-light-emphasis mt-4">
+          P R O J E C T S <br /> G A L L E R Y{" "}
+        </h3>
+        <div className="text-center m-3 p-4" style={{ fontSize: "20px" }}>
           <p className="text-light-emphasis">
-            Discover my projects, meticulously crafted with React, React Router,
-            JSON, JSX, JavaScript, HTML, CSS, and Bootstrap.
-          </p>
-          <p className="text-light-emphasis">
-            Simply click on the respective button to experience each project
-            online, or delve deeper into its codebase on GitHub for further
-            exploration.
+            Discover my projects, meticulously crafted with React, React , JSON,
+            JSX, JavaScript, HTML, CSS, and Bootstrap.
           </p>
         </div>
-        <Carousel>
+        <Row>
           {projects.map((project) => (
-            <Carousel.Item key={project.id}>
-                <Col>
-                  <Card className="h-100" style={{ backgroundColor: "#ea5555", border:'none' }}>
-                  <Card.Img className='d-block w-70' variant="top" src={project.image} style={{ height: "70%", objectFit: "fill" }} />
-                      <Card.Title style={{ padding: "5px", color: "#ffe7e7", borderRadius: "15px" }}>{project.title}</Card.Title>                    
-                    <div style={{ display: "flex", justifyContent: "center" }}>
-                      <Button
-                        variant="success"
-                        href={project.deployedLink}
-                        style={{
-                          border: "none",
-                          margin: "10px",
-                          marginBottom: '50px',
-                          color: hoverStates[`deployedLink_${project.id}`] ? "white" : "#ea5555",
-                          backgroundColor: hoverStates[`deployedLink_${project.id}`] ? "#f6c6c2" : "#f6c6c2",
-                          transition: "color 0.3s ease",
-                        }}
-                        onMouseEnter={() => handleMouseEnter(`deployedLink_${project.id}`)}
-                        onMouseLeave={() => handleMouseLeave(`deployedLink_${project.id}`)}
-                      >
-                        Deployed app
-                      </Button>
-                      <Button
-                        variant="success"
-                        href={project.repoLink}
-                        style={{
-                          border: "none",
-                          margin: "10px",
-                          marginBottom: '50px',
-                          color: hoverStates[`repoLink_${project.id}`] ? "white" : "#ea5555",
-                          backgroundColor: hoverStates[`repoLink_${project.id}`] ? "#f6c6c2" : "#f6c6c2",
-                          transition: "color 0.3s ease",
-                        }}
-                        onMouseEnter={() => handleMouseEnter(`repoLink_${project.id}`)}
-                        onMouseLeave={() => handleMouseLeave(`repoLink_${project.id}`)}
-                      >
-                        GitHub repo
-                      </Button>
+            <Col lg={6} key={project.id && project.pitch}>
+              <Card
+                className="mb-4 position-relative shadow"
+                style={{ backgroundColor: "none", borderRadius: "25px" }}
+                onMouseEnter={() => handleMouseEnter(project.id, project.pitch)}
+                onMouseLeave={handleMouseLeave}
+              >
+                <Card.Img
+                  className="d-block"
+                  variant="top"
+                  src={project.image}
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    borderRadius: "25px",
+                  }}
+                />
+                {hoveredCard &&
+                  hoveredCard.id === project.id &&
+                  hoveredCard.pitch && (
+                    <div
+                      className="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
+                      style={{ backgroundColor: "white", borderRadius: "25px" }}
+                    >
+                      <Card.Body className="text-center">
+                        <Card.Title
+                          style={{
+                            padding: "5px",
+                            color: "darkgray",
+                            borderRadius: "15px",
+                            fontWeight: "bold",
+                          }}
+                        >
+                          {project.title}
+                        </Card.Title>
+                        <Card.Text
+                          style={{
+                            padding: "5px",
+                            color: "darkgray",
+                            borderRadius: "15px",
+                            fontSize: "20px",
+                          }}
+                        >
+                          {project.pitch}
+                        </Card.Text>
+                        <div
+                          style={{ display: "flex", justifyContent: "center" }}
+                        >
+                          <Button
+                            href={project.deployedLink}
+                            style={{ marginRight: "10px", 
+                            backgroundColor: 'white', 
+                            border: 'none',
+                            }}
+                          >
+                            <FontAwesomeIcon icon={faGlobe} style={{color:'pink', height: '25px'}}/>
+                          </Button>
+                          <Button
+                            href={project.repoLink}
+                            style={{ marginRight: "10px", 
+                            backgroundColor: 'white', 
+                            border: 'none', }}
+                            className="github-link"
+                          >
+                          <FontAwesomeIcon icon={faGithub} style={{ color:'pink', height:'25px' }} />
+                          </Button>
+                          
+                        </div>
+                      </Card.Body>
                     </div>
-                  </Card>
-                </Col>
-            </Carousel.Item>
+                  )}
+              </Card>
+            </Col>
           ))}
-        </Carousel>
+        </Row>
       </PageWrapper>
     </>
   );

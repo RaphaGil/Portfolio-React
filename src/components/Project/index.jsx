@@ -8,7 +8,7 @@ function ProjectCard({ project }) {
       <Card.Body>
         <Card.Title>{project.title}</Card.Title>
         <Card.Text>
-          {project.description}
+          {project.pitch}
         </Card.Text>
           <a href=''><Button variant="primary">Repo</Button></a>
         <a href=''><Button variant="primary">Deployed site</Button></a>

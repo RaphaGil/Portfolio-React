@@ -31,12 +31,17 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "left" }}>
+    <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "left", fontSize: '18px'}}>
       <div className="form-group" style={{ minWidth: '80%' }}>
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">Name:</label>
         <input
           type="name"
           className="form-control"
+          style={{
+            boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)", // Add box-shadow style here
+            padding: "10px", // Add padding for better visual appearance
+            borderRadius: "5px", // Add border-radius for rounded corners
+          }}
           id="name"
           name="name"
           value={formData.name}
@@ -45,10 +50,15 @@ const ContactForm = () => {
         />
       </div>
       <div className="form-group" style={{ minWidth: '80%' }}>
-        <label htmlFor="email">Email address</label>
+        <label htmlFor="email">Email address:</label>
         <input
           type="email"
           className="form-control"
+          style={{
+            boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)", // Add box-shadow style here
+            padding: "10px", // Add padding for better visual appearance
+            borderRadius: "5px", // Add border-radius for rounded corners
+          }}
           id="email"
           name="email"
           value={formData.email}
@@ -57,9 +67,14 @@ const ContactForm = () => {
         />
       </div>
       <div className="form-group" style={{ minWidth: '80%' }}>
-        <label htmlFor="exampleTextarea">Your Message</label>
+        <label htmlFor="exampleTextarea">Your Message:</label>
         <textarea
           className="form-control"
+          style={{
+            boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)", // Add box-shadow style here
+            padding: "10px", // Add padding for better visual appearance
+            borderRadius: "5px", // Add border-radius for rounded corners
+          }}
           id="exampleTextarea"
           name="exampleTextarea"
           rows="3"
@@ -72,13 +87,14 @@ const ContactForm = () => {
         className="btn"
         style={{
           marginTop: '15px',
-          color: '#fec6c2',
+          color: isHovered? 'white': '#fec6c2',
           backgroundColor: '#ea5555',
           paddingRight: '30px',
           border: '0px',
-          transition: 'background-color 0.3s', // Add transition for smooth hover effect
+          transition: '0.3s', // Add transition for smooth hover effect
           cursor: 'pointer', // Change cursor to pointer on hover
-          position: 'relative' // Add position relative for absolute positioning of the arrow
+          position: 'relative',
+          opacity: isHovered? '.5' :'1'
         }}
         onMouseEnter={() => setIsHovered(true)} // Set isHovered to true on mouse enter
         onMouseLeave={() => setIsHovered(false)} // Set isHovered to false on mouse leave

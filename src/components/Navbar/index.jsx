@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import CV from "../../assets/RaphaeladoAmaralGil.pdf";
-import Logo from "../../assets/img/Logo.png"; // Import your logo image
+import Logo from "../../assets/img/Logo.png"; 
 import "./index.css";
 
 function MyNavBar() {
@@ -20,7 +20,7 @@ function MyNavBar() {
           <Navbar.Brand href="/">
             <img
               src={Logo} // Set the source of the logo image
-              height="50"
+              height="55"
               className="d-inline-block align-top"
               alt="Your Logo"
             />
@@ -34,7 +34,7 @@ function MyNavBar() {
                 Home
               </Nav.Link>
               <Nav.Link href="./about" className="NavLink">
-                About me
+                About
               </Nav.Link>
               <Nav.Link href="./projects" className="NavLink">
                 Projects

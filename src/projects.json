@@ -27,14 +27,14 @@
     "id": 4,
     "title": "WEATHER DASHBOARD",
     "pitch": "A comprehensive weather forecast application that displays both the current weather and a 5-day forecast.",
-    "image": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/1fb3c2dc-286c-4c56-9a39-eae0f357b419",
+    "image": "https://github.com/RaphaGil/Portfolio-React/assets/128820385/4929b365-785a-4417-8897-127bc3e2a465",
     "deployedLink": "https://raphagil.github.io/Weather-Dashboard/",
     "repoLink": "https://github.com/RaphaGil/Weather-Dashboard"
   },
   {
     "id": 5,
     "title": "EMPLOYEE INFORMATION",
-    "pitch": "The project involves transforming given starter code into a functional Node.js command-line application. This application will gather information about employees on a software engineering team and generate an HTML webpage displaying summaries for each person. Comprehensive tests have been provided to ensure all aspects of the code pass successfully.",
+    "pitch": " This application will gather information about employees on a software engineering team and generate an HTML webpage displaying summaries for each person.",
     "image": "https://github.com/RaphaGil/Employee-Information/assets/128820385/205aef51-80b1-4059-8c10-4e5bbfbe1424",
     "deployedLink": "https://raphagil.github.io/Employee-Information/",
     "repoLink": "https://github.com/RaphaGil/Employee-Information"
