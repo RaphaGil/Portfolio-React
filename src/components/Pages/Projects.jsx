@@ -61,7 +61,7 @@ const Projects = () => {
                             color: "darkgray",
                             borderRadius: "15px",
                             fontWeight: "bold",
-                            fontSize: "4wv",
+                            // fontSize: "4wv",
                           }}
                         >
                           {project.title}
@@ -69,7 +69,7 @@ const Projects = () => {
                         <Card.Text
                           style={{
                             color: "darkgray",
-                            fontSize: "4wv",
+                            // fontSize: "54wv",
                           }}
                         >
                           {project.pitch}
@@ -84,7 +84,7 @@ const Projects = () => {
                             border: 'none',
                             }}
                           >
-                            <FontAwesomeIcon icon={faGlobe} style={{color:'pink', height: '40wv'}}/>
+                            <FontAwesomeIcon icon={faGlobe} style={{color:'pink', height: '100%'}}/>
                           </Button>
                           <Button
                             href={project.repoLink}
@@ -93,7 +93,7 @@ const Projects = () => {
                             border: 'none', }}
                             className="github-link"
                           >
-                          <FontAwesomeIcon icon={faGithub} style={{ color:'pink', height:'40wv' }} />
+                          <FontAwesomeIcon icon={faGithub} style={{ color:'pink', height:'100%' }} />
                           </Button>
                           
                         </div>

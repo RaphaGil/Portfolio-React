@@ -35,7 +35,7 @@
     "id": 5,
     "title": "EMPLOYEE INFORMATION",
     "pitch": " This application will gather information about employees on a software engineering team and generate an HTML webpage displaying summaries for each person.",
-    "image": "https://github.com/RaphaGil/Employee-Information/assets/128820385/205aef51-80b1-4059-8c10-4e5bbfbe1424",
+    "image": "https://github.com/RaphaGil/Employee-Information/assets/128820385/23e7d786-9c86-4908-9639-fbea21dfd436",
     "deployedLink": "https://raphagil.github.io/Employee-Information/",
     "repoLink": "https://github.com/RaphaGil/Employee-Information"
   },
@@ -44,8 +44,8 @@
     "title": "BOOTSTRAP PORTFOLIO",
     "pitch": "Within this project, I've extensively explored the Bootstrap framework, meticulously crafting a responsive design adaptable across laptops and mobile devices.",
     "image": "https://github.com/RaphaGil/React/assets/128820385/b5309673-b4ce-4a70-8f1a-8c3fd41433c9",
-    "deployedLink": "https://raphagil.github.io/bootstrap-portfolio/",
-    "repoLink": "https://github.com/RaphaGil/bootstrap-portfolio/"
+    "deployedLink": "https://raphagil.github.io/Bootstrap-Portfolio/",
+    "repoLink": "https://github.com/RaphaGil/Bootstrap-Portfolio"
   },
   {
     "id": 7,
