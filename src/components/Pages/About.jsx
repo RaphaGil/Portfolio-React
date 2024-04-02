@@ -54,77 +54,77 @@ const About = () => {
       >
         <div
           className="shadow text-light-emphasis"
-          style={{ borderRadius: "10px", marginBottom: "20px" }}
+          style={{ borderRadius: "10px", marginBottom: "20px", backgroundColor: 'rgba(234, 85, 85, 0.2)'}}
         >
           <p style={{ fontSize: '18px',padding: '10px'}}>
             UI/UX Desing</p>
         </div>
         <div
           className="shadow text-light-emphasis"
-          style={{ borderRadius: "10px", marginBottom: "20px" }}
+          style={{ borderRadius: "10px", marginBottom: "20px", backgroundColor: 'rgba(234, 85, 85, 0.2)' }}
         >
           <p style={{fontSize: '18px', padding: '10px'}}>
              Tailwind </p>
         </div>
         <div
           className="shadow text-light-emphasis"
-          style={{ borderRadius: "10px", marginBottom: "20px" }}
+          style={{ borderRadius: "10px", marginBottom: "20px",backgroundColor: 'rgba(234, 85, 85, 0.2)' }}
         >
           <p style={{ fontSize: '18px', padding: '10px'}}>
            Next.js </p>
         </div>
         <div
           className="shadow text-light-emphasis"
-          style={{ borderRadius: "10px", marginBottom: "20px", padding: '10px'}}
+          style={{ borderRadius: "10px", marginBottom: "20px", padding: '10px', backgroundColor: 'rgba(234, 85, 85, 0.2)'}}
         >
            <FontAwesomeIcon
-            style={{ fontSize: "30px", color: "pink", paddingRight: '10px' }}
+            style={{ fontSize: "30px", color: "#ea5555", paddingRight: '10px'}}
             icon={faCss3}
           /> CSS3
         </div>
         <div
           className="shadow text-light-emphasis"
-          style={{ borderRadius: "10px", marginBottom: "20px", padding: '10px' }}
+          style={{ borderRadius: "10px", marginBottom: "20px", padding: '10px',backgroundColor: 'rgba(234, 85, 85, 0.2)' }}
         >
        <FontAwesomeIcon
-            style={{ fontSize: "30px", color: "pink", paddingRight: '10px' }}
+            style={{ fontSize: "30px", color: "#ea5555", paddingRight: '10px' }}
             icon={faJs}
           /> JavaScript
         </div>
         <div
           className="shadow text-light-emphasis"
-          style={{ borderRadius: "10px", marginBottom: "20px", padding: '10px' }}
+          style={{ borderRadius: "10px", marginBottom: "20px", padding: '10px', backgroundColor: 'rgba(234, 85, 85, 0.2)' }}
         >
           <FontAwesomeIcon
-            style={{ fontSize: "30px", color: "pink", paddingRight: '10px' }}
+            style={{ fontSize: "30px", color: "#ea5555", paddingRight: '10px' }}
             icon={faHtml5}
           /> HTML5
         </div>
         <div
           className="shadow text-light-emphasis"
-          style={{ borderRadius: "10px", marginBottom: "20px", padding: '10px' }}
+          style={{ borderRadius: "10px", marginBottom: "20px", padding: '10px', backgroundColor: 'rgba(234, 85, 85, 0.2)' }}
         >
            <FontAwesomeIcon
-            style={{ fontSize: "30px", color: "pink",  paddingRight: '10px' }}
+            style={{ fontSize: "30px", color: "#ea5555",  paddingRight: '10px' }}
             icon={faNode}
           /> Node
         </div>
         <div
           className="shadow text-light-emphasis"
-          style={{ borderRadius: "10px", marginBottom: "20px", padding: '10px'}}
+          style={{ borderRadius: "10px", marginBottom: "20px", padding: '10px', backgroundColor: 'rgba(234, 85, 85, 0.2)'}}
         >
          
          <FontAwesomeIcon
-            style={{ fontSize: "30px", color: "pink", paddingRight: '10px'}}
+            style={{ fontSize: "30px", color: "#ea5555", paddingRight: '10px'}}
             icon={faReact}
           /> React
         </div>
         <div
           className="shadow text-light-emphasis"
-          style={{ borderRadius: "10px", marginBottom: "20px", padding: '10px'}}
+          style={{ borderRadius: "10px", marginBottom: "20px", padding: '10px', backgroundColor: 'rgba(234, 85, 85, 0.2)'}}
         >
             <FontAwesomeIcon
-            style={{ fontSize: "30px", color: "pink", paddingRight: '10px'}}
+            style={{ fontSize: "30px", color: "#ea5555", paddingRight: '10px'}}
             icon={faBootstrap}
           /> Bootstrap
         </div>

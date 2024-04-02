@@ -25,7 +25,7 @@ const Projects = () => {
         </h3>
         <div className="text-center m-3 p-4" style={{ fontSize: "20px" }}>
           <p className="text-light-emphasis">
-            Discover my projects, meticulously crafted with React, React , JSON,
+            Discover my projects, meticulously crafted with React, JSON,
             JSX, JavaScript, HTML, CSS, and Bootstrap.
           </p>
         </div>
@@ -33,7 +33,7 @@ const Projects = () => {
           {projects.map((project) => (
             <Col lg={6} key={project.id}>
               <Card
-                className="mb-4 position-relative shadow"
+                className="mb-4 position-relative shadow-lg"
                 style={{ backgroundColor: "none", borderRadius: "25px"}}
                 onMouseEnter={() => handleMouseEnter(project.id)}
                 onMouseLeave={handleMouseLeave}
@@ -52,13 +52,13 @@ const Projects = () => {
                   hoveredCard.id === project.id && (
                     <div
                       className="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
-                      style={{ backgroundColor: "white", borderRadius: "25px" }}
+                      style={{ backgroundColor: "white", borderRadius: "25px"}}
                     >
                       <Card.Body className="text-center" style={{width: '100%'}}>
                         <Card.Title
                           style={{
                             padding: "5px",
-                            color: "darkgray",
+                            color: "#ea5555",
                             borderRadius: "15px",
                             fontWeight: "bold",
                             // fontSize: "4wv",
@@ -68,7 +68,7 @@ const Projects = () => {
                         </Card.Title>
                         <Card.Text
                           style={{
-                            color: "darkgray",
+                            color: "black",
                             // fontSize: "54wv",
                           }}
                         >
@@ -84,7 +84,7 @@ const Projects = () => {
                             border: 'none',
                             }}
                           >
-                            <FontAwesomeIcon icon={faGlobe} style={{color:'pink', height: '100%'}}/>
+                            <FontAwesomeIcon icon={faGlobe} style={{color:'#ea5555', height: '100%'}}/>
                           </Button>
                           <Button
                             href={project.repoLink}
@@ -93,7 +93,7 @@ const Projects = () => {
                             border: 'none', }}
                             className="github-link"
                           >
-                          <FontAwesomeIcon icon={faGithub} style={{ color:'pink', height:'100%' }} />
+                          <FontAwesomeIcon icon={faGithub} style={{ color:'#ea5555', height:'100%' }} />
                           </Button>
                           
                         </div>

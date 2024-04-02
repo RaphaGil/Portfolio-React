@@ -28,8 +28,8 @@ function MyNavBar() {
           
           {/* Button on the right side */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-            <Nav className="mr-auto">
+          <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end font">
+            <Nav className="mr-auto" style={{ fontSize: '18px' }}>
               <Nav.Link href="./" className="NavLink">
                 Home
               </Nav.Link>
