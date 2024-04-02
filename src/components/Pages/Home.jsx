@@ -17,7 +17,7 @@ const Home = () => {
         <div className="body">
           <h1 className="p-2 mt-4 mt-3 text-light-emphasis">Olá!</h1>
           <p className="text-light-emphasis form-control-lg" style={{fontSize: '26px', }}>
-            I am <b>Raphaela Gil</b> &#128075; and I am a front-end web developer based in London, UK
+            I am <b>Raphaela Gil</b> &#128075; and I am a Fontend Web Developer based in London, UK
           </p>
           <p className="text-light-emphasis" style={{fontSize: '20px', }}>
             Welcome to my <b>portfolio</b>. This is my webpage where I share side projects that I've been working on.
