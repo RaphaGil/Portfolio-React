@@ -20,7 +20,7 @@ const Projects = () => {
   return (
     <>
       <PageWrapper>
-        <div className="text-center m-3 p-4" style={{ fontSize: "24px" }}>
+        <div className="text-center " style={{ fontSize: "24px" }}>
           <h3 className="text-light-emphasis mt-4">
             P R O J E C T S
           </h3>
