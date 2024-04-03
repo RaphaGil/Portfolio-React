@@ -52,14 +52,14 @@ const Projects = () => {
                   >
                     <Card.Body
                       className="text-center"
-                      style={{ width: "100%"}}
+                      style={{ width: "50%", height: 'auto'}}
                     >
                       <Card.Title
                         style={{
                           padding: "5px",
                           color: "#ea5555",
                           fontWeight: "bold",
-                          fontSize: '24px',
+                          fontSize: '90%',
                           borderBlockColor:'white'
                         }}
                       >
@@ -69,7 +69,7 @@ const Projects = () => {
                       <Card.Text
                         style={{
                           color: "black",
-                          fontSize: '20px'
+                          fontSize: '80%',
                         }}
                       >
                         {project.pitch}
