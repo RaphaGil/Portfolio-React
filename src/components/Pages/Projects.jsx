@@ -24,40 +24,38 @@ const Projects = () => {
           <h3 className="text-light-emphasis mt-4">
             P R O J E C T S
           </h3>
+        
         </div>
         <Row>
           {projects.map((project) => (
             <Col lg={6} key={project.id}>
               <Card
                 className="m-4 position-relative shadow-lg"
-                style={{ backgroundColor: "none", borderRadius: "25px"}}
+                style={{ borderRadius: "25px"}}
                 onMouseEnter={() => handleMouseEnter(project.id)}
                 onMouseLeave={handleMouseLeave}
               >
                 <Card.Img
                   className="d-block"
-                  variant="top"
                   src={project.gif}
                   style={{
-                    width: "100%",
-                    height: "100%",
+                    
                     borderRadius: "25px",
                   }}
                 />
                 {hoveredCard && hoveredCard.id === project.id && (
                   <div
-                    className="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
+                    className="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center  border-none"
                     style={{ backgroundColor: "white", borderRadius: "25px" }}
                   >
                     <Card.Body
                       className="text-center"
-                      style={{ width: "100%" }}
+                      style={{ width: "100%"}}
                     >
                       <Card.Title
                         style={{
                           padding: "5px",
                           color: "#ea5555",
-                          borderRadius: "15px",
                           fontWeight: "bold",
                           fontSize: '24px'
                         }}

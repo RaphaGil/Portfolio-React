@@ -1,13 +1,5 @@
 import PageWrapper from "../PageWrapper/Index";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCss3,
-  faJs,
-  faHtml5,
-  faBootstrap,
-  faNode,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons"; // Importing the FontAwesome icons
+
 
 const About = () => {
   return (
@@ -42,16 +34,39 @@ const About = () => {
       <div
         className="container"
         style={{
-          padding: "15px",
           borderRadius: "5px",
-          maxWidth: "100%",
+          display: 'flex',
+          justifyContent: 'center',
         }}
       >
         <div className="row">
           <div
+            className="col shadow align-self-center"
+            style={{
+              borderRadius: "15px",
+              height: '50px',
+              backgroundColor: "rgba(234, 85, 85, 0.2)",
+              transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
+            }}
+            // Apply hover effect
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.5)"; // Lighter background color on hover
+              e.currentTarget.style.padding = "15px"; // Increased padding on hover
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.2)"; // Revert to original background color
+              e.currentTarget.style.padding = "10px"; // Revert to original padding
+            }}
+          >
+            <p style={{ fontSize: "18px", color: "#ea5555"}}>Tailwind </p>
+          </div>
+
+          <div
             className="col shadow text-light-emphasis text-right align-self-center"
             style={{
-              borderRadius: "10px",
+              borderRadius: "15px",
+              maxWidth: '100px',
+              height: '50px',
               margin: "10px",
               backgroundColor: "rgba(234, 85, 85, 0.2)",
               transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
@@ -66,12 +81,15 @@ const About = () => {
               e.currentTarget.style.padding = "10px"; // Revert to original padding
             }}
           >
-            <p style={{ fontSize: "18px", padding: "10px" }}>Tailwind </p>
+            <p style={{ fontSize: "18px", color: "#ea5555", }}>jQuery </p>
           </div>
+
           <div
-            className="col shadow text-light-emphasis align-self-center"
+            className="col shadow text-light-emphasis text-right align-self-center"
             style={{
-              borderRadius: "10px",
+              borderRadius: "15px",
+              maxWidth: '100px',
+              height: '50px',
               margin: "10px",
               backgroundColor: "rgba(234, 85, 85, 0.2)",
               transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
@@ -86,13 +104,37 @@ const About = () => {
               e.currentTarget.style.padding = "10px"; // Revert to original padding
             }}
           >
-            <p style={{ fontSize: "18px", padding: "10px" }}>Next.js </p>
+            <p style={{ fontSize: "18px",color: "#ea5555", }}>Git </p>
           </div>
 
           <div
             className="col shadow text-light-emphasis align-self-center"
             style={{
-              borderRadius: "10px",
+              borderRadius: "15px",
+              height: '50px',
+              margin: "10px",
+              backgroundColor: "rgba(234, 85, 85, 0.2)",
+              transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
+            }}
+            // Apply hover effect
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.5)"; // Lighter background color on hover
+              e.currentTarget.style.padding = "15px"; // Increased padding on hover
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.2)"; // Revert to original background color
+              e.currentTarget.style.padding = "10px"; // Revert to original padding
+            }}
+          >
+            <p style={{ fontSize: "18px", color: "#ea5555", }}>Next.js </p>
+          </div>
+
+          <div
+            className="col shadow text-light-emphasis align-self-center"
+            style={{
+              borderRadius: "15px",
+              maxWidth: '100px',
+              height: '50px',
               margin: "10px",
               padding: "10px",
               backgroundColor: "rgba(234, 85, 85, 0.2)",
@@ -108,112 +150,38 @@ const About = () => {
               e.currentTarget.style.padding = "10px"; // Revert to original padding
             }}
           >
-            <FontAwesomeIcon
-              style={{
-                fontSize: "30px",
-                color: "#ea5555",
-                paddingRight: "10px",
-              }}
-              icon={faCss3}
-            />{" "}
-            <br></br>
-            CSS3
+           <p style={{ fontSize: "18px", color: "#ea5555", }}> Node.js</p>
           </div>
 
           <div
             className="col shadow text-light-emphasis align-self-center"
             style={{
-              borderRadius: "10px",
-              margin: "10px",
-              padding: "10px",
-              backgroundColor: "rgba(234, 85, 85, 0.2)",
-              transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.5)"; // Lighter background color on hover
-              e.currentTarget.style.padding = "15px"; // Increased padding on hover
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.2)"; // Revert to original background color
-              e.currentTarget.style.padding = "10px"; // Revert to original padding
-            }}
-          >
-            <FontAwesomeIcon
-              style={{
-                fontSize: "30px",
-                color: "#ea5555",
-                paddingRight: "10px",
-              }}
-              icon={faJs}
-            /> <br></br>
-            JavaScript
-          </div>
-
-          <div
-            className="col shadow text-light-emphasis  align-self-center"
-            style={{
-              borderRadius: "10px",
-              margin: "10px",
-              padding: "10px",
-              backgroundColor: "rgba(234, 85, 85, 0.2)",
-              transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.5)"; // Lighter background color on hover
-              e.currentTarget.style.padding = "15px"; // Increased padding on hover
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.2)"; // Revert to original background color
-              e.currentTarget.style.padding = "10px"; // Revert to original padding
-            }}
-          >
-            <FontAwesomeIcon
-              style={{
-                fontSize: "30px",
-                color: "#ea5555",
-                paddingRight: "10px",
-              }}
-              icon={faHtml5}
-            />
-            <br></br>
-            HTML5
-          </div>
-
-          <div
-            className="col shadow text-light-emphasis align-self-center"
-            style={{
-              borderRadius: "10px",
+              borderRadius: "15px",
+              maxWidth: '100px',
+              height: '50px',
               margin: "10px",
               padding: "10px",
               backgroundColor: "rgba(234, 85, 85, 0.2)",
               transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
             }}
             // Apply hover effect
-             onMouseEnter={(e) => {
+            onMouseEnter={(e) => {
               e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.5)"; // Lighter background color on hover
-              e.currentTarget.style.padding = "15px"; // Increased padding on hover
-            }}
+              e.currentTarget.style.padding = "15px"}}
             onMouseLeave={(e) => {
               e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.2)"; // Revert to original background color
               e.currentTarget.style.padding = "10px"; // Revert to original padding
             }}
           >
-            <FontAwesomeIcon
-              style={{
-                fontSize: "30px",
-                color: "#ea5555",
-                paddingRight: "10px",
-              }}
-              icon={faNode}
-            />
-            <br></br>
-            Node
+           <p style={{ fontSize: "18px", color: "#ea5555", }}> JavaScript</p>
           </div>
 
           <div
             className="col shadow text-light-emphasis align-self-center"
             style={{
-              borderRadius: "10px",
+              borderRadius: "15px",
+              maxWidth: '100px',
+              height: '50px',
               margin: "10px",
               padding: "10px",
               backgroundColor: "rgba(234, 85, 85, 0.2)",
@@ -229,22 +197,15 @@ const About = () => {
               e.currentTarget.style.padding = "10px"; // Revert to original padding
             }}
           >
-            <FontAwesomeIcon
-              style={{
-                fontSize: "30px",
-                color: "#ea5555",
-                paddingRight: "10px",
-              }}
-              icon={faReact}
-            />
-            <br></br>
-            React
+           <p style={{ fontSize: "18px", color: "#ea5555", }}> HTML5 </p>
           </div>
 
-          <div
+             <div
             className="col shadow text-light-emphasis align-self-center"
             style={{
-              borderRadius: "10px",
+              borderRadius: "15px",
+              maxWidth: '100px',
+              height: '50px',
               margin: "10px",
               padding: "10px",
               backgroundColor: "rgba(234, 85, 85, 0.2)",
@@ -260,16 +221,57 @@ const About = () => {
               e.currentTarget.style.padding = "10px"; // Revert to original padding
             }}
           >
-            <FontAwesomeIcon
-              style={{
-                fontSize: "30px",
-                color: "#ea5555",
-                paddingRight: "10px",
-              }}
-              icon={faBootstrap}
-            /> <br></br>
-            Bootstrap
+           <p style={{ fontSize: "18px", color: "#ea5555", }}> CSS3 </p>
           </div>
+          <div
+            className="col shadow text-light-emphasis align-self-center"
+            style={{
+              borderRadius: "15px",
+              maxWidth: '100px',
+              height: '50px',
+              margin: "10px",
+              padding: "10px",
+              backgroundColor: "rgba(234, 85, 85, 0.2)",
+              transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
+            }}
+            // Apply hover effect
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.5)"; // Lighter background color on hover
+              e.currentTarget.style.padding = "15px"; // Increased padding on hover
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.2)"; // Revert to original background color
+              e.currentTarget.style.padding = "10px"; // Revert to original padding
+            }}
+          >
+           <p style={{ fontSize: "18px", color: "#ea5555", }}> Bootstrap</p>
+          </div>
+          <div
+            className="col shadow text-light-emphasis align-self-center"
+            style={{
+              borderRadius: "15px",
+              maxWidth: '100px',
+              height: '50px',
+              margin: "10px",
+              padding: "10px",
+              backgroundColor: "rgba(234, 85, 85, 0.2)",
+              transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
+            }}
+            // Apply hover effect
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.5)"; // Lighter background color on hover
+              e.currentTarget.style.padding = "15px"; // Increased padding on hover
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = "rgba(234, 85, 85, 0.2)"; // Revert to original background color
+              e.currentTarget.style.padding = "10px"; // Revert to original padding
+            }}
+          >
+           <p style={{ fontSize: "18px", color: "#ea5555" }}> React</p>
+          </div>
+
+        
+        
         </div>
       </div>
     </PageWrapper>
