@@ -10,7 +10,7 @@ const Projects = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
 
   const handleMouseEnter = (projectId) => {
-    setHoveredCard({ id: projectId});
+    setHoveredCard({ id: projectId });
   };
 
   const handleMouseLeave = () => {
@@ -20,14 +20,10 @@ const Projects = () => {
   return (
     <>
       <PageWrapper>
-        <h3 className="text-center text-light-emphasis mt-4">
-          P R O J E C T S <br /> G A L L E R Y{" "}
-        </h3>
-        <div className="text-center m-3 p-4" style={{ fontSize: "20px" }}>
-          <p className="text-light-emphasis">
-            Discover my projects, meticulously crafted with React, JSON,
-            JSX, JavaScript, HTML, CSS, and Bootstrap.
-          </p>
+        <div className="text-center m-3 p-4" style={{ fontSize: "24px" }}>
+          <h3 className="text-center text-light-emphasis mt-4">
+            P R O J E C T S
+          </h3>
         </div>
         <Row>
           {projects.map((project) => (
@@ -41,65 +37,78 @@ const Projects = () => {
                 <Card.Img
                   className="d-block"
                   variant="top"
-                  src={project.image}
+                  src={project.gif}
                   style={{
                     width: "100%",
-                    height: 'auto',
+                    height: "100%",
                     borderRadius: "25px",
                   }}
                 />
-                {hoveredCard &&
-                  hoveredCard.id === project.id && (
-                    <div
-                      className="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
-                      style={{ backgroundColor: "white", borderRadius: "25px"}}
+                {hoveredCard && hoveredCard.id === project.id && (
+                  <div
+                    className="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"
+                    style={{ backgroundColor: "white", borderRadius: "25px" }}
+                  >
+                    <Card.Body
+                      className="text-center"
+                      style={{ width: "100%" }}
                     >
-                      <Card.Body className="text-center" style={{width: '100%'}}>
-                        <Card.Title
+                      <Card.Title
+                        style={{
+                          padding: "5px",
+                          color: "#ea5555",
+                          borderRadius: "15px",
+                          fontWeight: "bold",
+                          fontSize: '24px'
+                        }}
+                      >
+                        {project.title}
+                      </Card.Title>
+
+                      <Card.Text
+                        style={{
+                          color: "black",
+                          fontSize: '20px'
+                        }}
+                      >
+                        {project.pitch}
+                      </Card.Text>
+                      <div
+                        style={{ display: "flex", justifyContent: "center" }}
+                      >
+
+                        <Button
+                          href={project.deployedLink}
                           style={{
-                            padding: "5px",
-                            color: "#ea5555",
-                            borderRadius: "15px",
-                            fontWeight: "bold",
-                            // fontSize: "4wv",
+                            marginRight: "10px",
+                            backgroundColor: "white",
+                            border: "none",
                           }}
                         >
-                          {project.title}
-                        </Card.Title>
-                        <Card.Text
+                          <FontAwesomeIcon
+                            icon={faGlobe}
+                            style={{ color: "#ea5555", height: "100%", padding: '5px',}}
+                          />
+                        </Button>
+
+                        <Button
+                          href={project.repoLink}
                           style={{
-                            color: "black",
-                            // fontSize: "54wv",
+                            marginRight: "10px",
+                            backgroundColor: "white",
+                            border: "none",
                           }}
+                          className="github-link"
                         >
-                          {project.pitch}
-                        </Card.Text>
-                        <div
-                          style={{ display: "flex", justifyContent: "center" }}
-                        >
-                          <Button
-                            href={project.deployedLink}
-                            style={{ marginRight: "10px", 
-                            backgroundColor: 'white', 
-                            border: 'none',
-                            }}
-                          >
-                            <FontAwesomeIcon icon={faGlobe} style={{color:'#ea5555', height: '100%'}}/>
-                          </Button>
-                          <Button
-                            href={project.repoLink}
-                            style={{ marginRight: "10px", 
-                            backgroundColor: 'white', 
-                            border: 'none', }}
-                            className="github-link"
-                          >
-                          <FontAwesomeIcon icon={faGithub} style={{ color:'#ea5555', height:'100%' }} />
-                          </Button>
-                          
-                        </div>
-                      </Card.Body>
-                    </div>
-                  )}
+                          <FontAwesomeIcon
+                            icon={faGithub}
+                            style={{ color: "#ea5555", height: "100%", padding: '5px'}}
+                          />
+                        </Button>
+                      </div>
+                    </Card.Body>
+                  </div>
+                )}
               </Card>
             </Col>
           ))}

@@ -3,7 +3,7 @@
     "id": 1,
     "title": "FOOD RECIPE APP",
     "pitch": "Say goodbye to food waste and hello to Foodie - your ultimate food app for using what you already have in your pantry!",
-    "image": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/b183fa96-f93f-46f3-a509-c68e7f750352",
+    "gif": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/e860caa3-3009-4ac2-a41b-17187c02eb47",
     "deployedLink": "https://rgc1.github.io/Foodie-Recipes-App/",
     "repoLink": "https://github.com/RGC1/Foodie-Recipes-App/"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "PLANNER APP",
     "pitch": "A simple planner app that allows users to save events and tasks for the day or week.",
-    "image": "https://github.com/RaphaGil/Planner-App/assets/128820385/8dbf2010-305e-412f-a581-7201f591be8b",
+    "gif": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/8e700d00-9e8e-4cb0-b9d3-eb5efbbab06f",
     "deployedLink": "https://raphagil.github.io/Planner-App/",
     "repoLink": "https://github.com/RaphaGil/Planner-App"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "QUIZ GAME",
     "pitch": "The quiz game comprises five questions centered around general knowledge.",
-    "image": "https://github.com/RaphaGil/Quiz-Game/assets/128820385/f8c95eb8-4342-4bdd-9eab-0205ae0e8e4b",
+    "gif": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/bd486b78-e193-406b-ba72-b3e41b9935a0",
     "deployedLink": "https://raphagil.github.io/Quiz-Game/",
     "repoLink": "https://github.com/RaphaGil/Quiz-Game"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "WEATHER DASHBOARD",
     "pitch": "A comprehensive weather forecast application that displays both the current weather and a 5-day forecast.",
-    "image": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/f63874b0-d68a-4537-917e-58d9ca06a97f",
+    "gif": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/7b8fff97-ebba-49e8-8287-dded47b571d1",
     "deployedLink": "https://raphagil.github.io/Weather-Dashboard/",
     "repoLink": "https://github.com/RaphaGil/Weather-Dashboard"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "EMPLOYEE INFORMATION",
     "pitch": " This application will gather information about employees on a software engineering team and generate an HTML webpage displaying summaries for each person.",
-    "image": "https://github.com/RaphaGil/Employee-Information/assets/128820385/23e7d786-9c86-4908-9639-fbea21dfd436",
+    "gif": "https://github.com/RaphaGil/Employee-Information/assets/128820385/23e7d786-9c86-4908-9639-fbea21dfd436",
     "deployedLink": "https://raphagil.github.io/Employee-Information/",
     "repoLink": "https://github.com/RaphaGil/Employee-Information"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "title": "BOOTSTRAP PORTFOLIO",
     "pitch": "Within this project, I've extensively explored the Bootstrap framework, meticulously crafting a responsive design adaptable across laptops and mobile devices.",
-    "image": "https://github.com/RaphaGil/React/assets/128820385/b5309673-b4ce-4a70-8f1a-8c3fd41433c9",
+    "gif": "https://github.com/RaphaGil/React/assets/128820385/b5309673-b4ce-4a70-8f1a-8c3fd41433c9",
     "deployedLink": "https://raphagil.github.io/Bootstrap-Portfolio/",
     "repoLink": "https://github.com/RaphaGil/Bootstrap-Portfolio"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "title": "TRENDOO",
     "pitch": "Trendoo was invented as a trendy, avant garde fashion label known for its innovative designs and cutting-edge styles.",
-    "image": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/38d7458a-3d19-4d57-8e24-3566210c64d9",
+    "gif": "https://github.com/RaphaGil/Weather-Dashboard/assets/128820385/38d7458a-3d19-4d57-8e24-3566210c64d9",
     "deployedLink": "https://trendoo.netlify.app/",
     "repoLink": "https://github.com/RaphaGil/TrendooEshopApp"
   }
