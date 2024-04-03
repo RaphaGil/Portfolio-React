@@ -11,12 +11,12 @@ const Home = () => {
         <img
           src={myImage}
           id="myProfile"
-          style={{ maxWidth: '40%', height: 'auto' }}
+          style={{ minWidth: '40%', maxWidth: '80%', height: 'auto' }}
           alt="Professional profile picture of a person crossing arms"
         />
         <div className="body">
-          <h1 className="p-2 mt-4 mt-3 text-light-emphasis">Olá!</h1>
-          <p className="text-light-emphasis form-control-lg" style={{fontSize: '26px', }}>
+          <h1 className=" mt-4 mt-3 text-light-emphasis">Olá!</h1>
+          <p className="text-light-emphasis" style={{fontSize: '26px', }}>
             I am <b>Raphaela Gil</b> &#128075; and I am a Fontend Web Developer based in London, UK
           </p>
           <p className="text-light-emphasis" style={{fontSize: '20px', }}>
