@@ -31,7 +31,7 @@ const Projects = () => {
             <Col lg={6} key={project.id}>
               <Card
                 className="m-4 position-relative shadow-lg border-none"
-                style={{ borderRadius: "25px", border: 'none', borderBlockColor: 'transparent'}}
+                style={{ borderRadius: "25px", border: 'none', borderBlockColor: 'transparent', width: '100%'}}
                 onMouseEnter={() => handleMouseEnter(project.id)}
                 onMouseLeave={handleMouseLeave}
               >
@@ -41,8 +41,7 @@ const Projects = () => {
                   style={{
                     borderBlockColor:'white',
                     borderRadius: "25px",
-                    width: '100%',
-                    height:'auto'
+                    // width: '100%',
                   }}
                 />
                 {hoveredCard && hoveredCard.id === project.id && (
@@ -52,15 +51,18 @@ const Projects = () => {
                   >
                     <Card.Body
                       className="text-center"
-                      style={{ width: "50%", height: 'auto'}}
+                      style={{}}
                     >
                       <Card.Title
                         style={{
-                          padding: "5px",
+                          padding: "px",
                           color: "#ea5555",
                           fontWeight: "bold",
-                          fontSize: '90%',
-                          borderBlockColor:'white'
+                          // fontSize: '90%',
+                          height:'auto',
+                          borderBlockColor:'white',
+                          margin: '5px',
+                   
                         }}
                       >
                         {project.title}
@@ -69,7 +71,8 @@ const Projects = () => {
                       <Card.Text
                         style={{
                           color: "black",
-                          fontSize: '80%',
+                          // fontSize: '16px',
+                          
                         }}
                       >
                         {project.pitch}
@@ -84,6 +87,7 @@ const Projects = () => {
                             marginRight: "10px",
                             backgroundColor: "white",
                             border: "none",
+                            // width: '10%'
                           }}
                         >
                           <FontAwesomeIcon
