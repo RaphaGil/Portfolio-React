@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MyNav from './components/Navbar';
 import {  About, Contact, Custom404, Home, Projects } from './components/Pages';
 import PageWrapper from "./components/PageWrapper/Index"
+import TopBtn from './components/Pages/TopBtn';
 import './App.css'
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
         }
       />
     </Routes>
+    <TopBtn />
   </BrowserRouter>
   )
 }

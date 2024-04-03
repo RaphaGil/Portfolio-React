@@ -21,7 +21,7 @@ const Projects = () => {
     <>
       <PageWrapper>
         <div className="text-center m-3 p-4" style={{ fontSize: "24px" }}>
-          <h3 className="text-center text-light-emphasis mt-4">
+          <h3 className="text-light-emphasis mt-4">
             P R O J E C T S
           </h3>
         </div>
@@ -29,7 +29,7 @@ const Projects = () => {
           {projects.map((project) => (
             <Col lg={6} key={project.id}>
               <Card
-                className="mb-4 position-relative shadow-lg"
+                className="m-4 position-relative shadow-lg"
                 style={{ backgroundColor: "none", borderRadius: "25px"}}
                 onMouseEnter={() => handleMouseEnter(project.id)}
                 onMouseLeave={handleMouseLeave}
