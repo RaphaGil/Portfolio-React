@@ -30,7 +30,7 @@ const Projects = () => {
           {projects.map((project) => (
             <Col lg={6} key={project.id}>
               <Card
-                className="m-4 position-relative shadow-lg border-none"
+                className="mt-5 position-relative shadow-lg border-none"
                 style={{ borderRadius: "25px", border: 'none', borderBlockColor: 'transparent', width: '100%'}}
                 onMouseEnter={() => handleMouseEnter(project.id)}
                 onMouseLeave={handleMouseLeave}

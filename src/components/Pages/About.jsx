@@ -45,6 +45,7 @@ const About = () => {
             style={{
               borderRadius: "15px",
               height: '50px',
+              padding:'10px',
               backgroundColor: "rgba(234, 85, 85, 0.2)",
               transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
             }}
@@ -68,6 +69,7 @@ const About = () => {
               maxWidth: '100px',
               height: '50px',
               margin: "10px",
+              padding:'10px',
               backgroundColor: "rgba(234, 85, 85, 0.2)",
               transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
             }}
@@ -91,6 +93,7 @@ const About = () => {
               maxWidth: '100px',
               height: '50px',
               margin: "10px",
+              padding:'10px',
               backgroundColor: "rgba(234, 85, 85, 0.2)",
               transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
             }}
@@ -113,6 +116,7 @@ const About = () => {
               borderRadius: "15px",
               height: '50px',
               margin: "10px",
+              padding:'10px',
               backgroundColor: "rgba(234, 85, 85, 0.2)",
               transition: "background-color 0.3s ease, padding 0.3s ease", // Add transition for background color and padding
             }}
