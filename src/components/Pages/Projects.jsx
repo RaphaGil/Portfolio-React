@@ -20,7 +20,7 @@ const Projects = () => {
   return (
     <>
       <PageWrapper>
-        <div className="text-center " style={{ fontSize: "24px" }}>
+        <div className="text-center " style={{ fontSize: "24px", border:'none' }}>
           <h3 className="text-light-emphasis mt-4">
             P R O J E C T S
           </h3>
@@ -30,16 +30,16 @@ const Projects = () => {
           {projects.map((project) => (
             <Col lg={6} key={project.id}>
               <Card
-                className="m-4 position-relative shadow-lg"
-                style={{ borderRadius: "25px"}}
+                className="m-4 position-relative shadow-lg border-none"
+                style={{ borderRadius: "25px", border: 'none', borderBlockColor: 'transparent'}}
                 onMouseEnter={() => handleMouseEnter(project.id)}
                 onMouseLeave={handleMouseLeave}
               >
                 <Card.Img
-                  className="d-block"
+                  className="d-block border-none"
                   src={project.gif}
                   style={{
-                    
+                    borderBlockColor:'white',
                     borderRadius: "25px",
                   }}
                 />
@@ -57,7 +57,8 @@ const Projects = () => {
                           padding: "5px",
                           color: "#ea5555",
                           fontWeight: "bold",
-                          fontSize: '24px'
+                          fontSize: '24px',
+                          borderBlockColor:'white'
                         }}
                       >
                         {project.title}
