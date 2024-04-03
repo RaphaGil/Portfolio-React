@@ -41,6 +41,8 @@ const Projects = () => {
                   style={{
                     borderBlockColor:'white',
                     borderRadius: "25px",
+                    width: '100%',
+                    height:'auto'
                   }}
                 />
                 {hoveredCard && hoveredCard.id === project.id && (
