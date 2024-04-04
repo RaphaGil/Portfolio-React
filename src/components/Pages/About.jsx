@@ -15,7 +15,7 @@ const About = () => {
               I've finely tuned my abilities to uphold product excellence,
               demonstrating a keen eye for detail and a constant drive for
               process enhancement. Now, having obtained certification as a{" "}
-              <b>Front-End Web Developer</b> through Edx, I'm excited to embrace
+              <b>Frontend Web Developer</b> through edX, I'm excited to embrace
               this new career path. Fueled by my love for coding and a
               commitment to crafting user-centric interfaces, I am eager to
               harness my varied skill set to develop vibrant and intuitive web
