@@ -37,7 +37,7 @@ const Projects = () => {
               >
                 <Card.Img
                   className="d-block border-none"
-                  src={project.gif}
+                  src={project.image}
                   style={{
                     borderBlockColor:'white',
                     borderRadius: "25px",
