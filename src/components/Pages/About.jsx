@@ -12,16 +12,7 @@ const About = () => {
           <div className="col">
             <p className="text-light-emphasis">
               With a solid foundation in quality assurance and customer support,
-              I've finely tuned my abilities to uphold product excellence,
-              demonstrating a keen eye for detail and a constant drive for
-              process enhancement. Now, having obtained certification as a{" "}
-              <b>Frontend Web Developer</b> through edX, I'm excited to embrace
-              this new career path. Fueled by my love for coding and a
-              commitment to crafting user-centric interfaces, I am eager to
-              harness my varied skill set to develop vibrant and intuitive web
-              applications. Currently, I am actively augmenting my proficiency
-              in testing automation and front-end development to further enrich
-              my capabilities.
+              With a background of over 10 years in quality control, chemistry, and customer support, I have gained my problem-solving and communication skills, such as improving processes via new ideas. Having recently earned certification as a Frontend Web Developer through edX, since my first ‘Hello World’, web development has been my passion and I am excited to continue improving myself and contribute to new web projects. Driven by user-driven thinking as a web developer, I am eager to utilise my keen eye for detail and creativity skills to develop accessible applications for all users. Currently, I am focused on improving my abilities in testing and frontend development.
             </p>
           </div>
         </div>
