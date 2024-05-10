@@ -1,0 +1,14 @@
+/* @keyframes slidein {
+  0% {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slidein {
+  animation: slidein 3s alternate;
+} */
