@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "title": "TIC-TOC-TOE",
+    "title": "TIC-TAC-TOE",
     "pitch": "A Tic-Tac-Toe project is a fun and straightforward way to practice frontend development skills, including UI design, state management, event handling, and game logic implementation.",
     "image": "https://github.com/RaphaGil/Portfolio-React/assets/128820385/a8dc5449-ae4b-485b-99a9-45d7854a3623",
     "deployedLink": "https://raphagil.github.io/Tic-Toc-Toe/",
