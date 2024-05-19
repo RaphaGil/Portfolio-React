@@ -62,5 +62,13 @@
     "image": "https://github.com/RaphaGil/Traias-Gil/assets/128820385/7156a6d5-fd27-4d1b-9616-f2e4accdd145",
     "deployedLink": "https://raphagil.github.io/Traias-Gil/",
     "repoLink": "https://github.com/RaphaGil/Traias-Gil"
+  },
+  {
+    "id": 9,
+    "title": "TIC-TOC-TOE",
+    "pitch": "A Tic-Tac-Toe project is a fun and straightforward way to practice frontend development skills, including UI design, state management, event handling, and game logic implementation. It's also a great opportunity to explore additional features and customization options to enhance the gameplay experience.",
+    "image": "https://github.com/RaphaGil/Portfolio-React/assets/128820385/a8dc5449-ae4b-485b-99a9-45d7854a3623",
+    "deployedLink": "https://raphagil.github.io/Tic-Toc-Toe/",
+    "repoLink": "https://github.com/RaphaGil/Tic-Toc-Toe"
   }
 ]
