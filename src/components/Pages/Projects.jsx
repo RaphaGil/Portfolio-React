@@ -31,7 +31,8 @@ const Projects = () => {
             <Col lg={6} key={project.id}>
               <Card
                 className="mt-5 position-relative shadow-lg border-none"
-                style={{ borderRadius: "25px", border: 'none', borderBlockColor: 'transparent', width: '100%'}}
+           
+                style={{borderRadius: "25px", border: 'none', borderBlockColor: 'transparent', width: '100%'}}
                 onMouseEnter={() => handleMouseEnter(project.id)}
                 onMouseLeave={handleMouseLeave}
               >
@@ -41,28 +42,21 @@ const Projects = () => {
                   style={{
                     borderBlockColor:'white',
                     borderRadius: "25px",
-                    // width: '100%',
                   }}
                 />
                 {hoveredCard && hoveredCard.id === project.id && (
                   <div
-                    className="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center  border-none"
-                    style={{ backgroundColor: "white", borderRadius: "25px" }}
+                    className="position-absolute w-100 d-flex justify-content-center align-items-center  border-none"
+                    style={{ backgroundColor: "white", borderRadius: "25px", height:'100%' }}
                   >
                     <Card.Body
                       className="text-center"
-                      style={{}}
                     >
                       <Card.Title
                         style={{
-                          padding: "px",
                           color: "#ea5555",
                           fontWeight: "bold",
-                          // fontSize: '90%',
-                          height:'auto',
                           borderBlockColor:'white',
-                          margin: '5px',
-                   
                         }}
                       >
                         {project.title}
@@ -70,17 +64,14 @@ const Projects = () => {
 
                       <Card.Text
                         style={{
-                          color: "black",
-                          // fontSize: '16px',
-                          
+                          color: "black"
                         }}
                       >
                         {project.pitch}
                       </Card.Text>
                       <div
-                        style={{ display: "flex", justifyContent: "center" }}
+                        style={{display: "flex", justifyContent: "center", padding:'10px' }}
                       >
-
                         <Button
                           href={project.deployedLink}
                           style={{
@@ -92,7 +83,7 @@ const Projects = () => {
                         >
                           <FontAwesomeIcon
                             icon={faGlobe}
-                            style={{ color: "#ea5555", height: "100%", padding: '5px',}}
+                            style={{ color: "#ea5555", height: "100%", paddingRight: '5px',}}
                           />
                         </Button>
 
@@ -107,7 +98,7 @@ const Projects = () => {
                         >
                           <FontAwesomeIcon
                             icon={faGithub}
-                            style={{ color: "#ea5555", height: "100%", padding: '5px'}}
+                            style={{ color: "#ea5555", height: "100%", padding: 'px'}}
                           />
                         </Button>
                       </div>
