@@ -70,5 +70,13 @@
     "image": "https://github.com/RaphaGil/Portfolio-React/assets/128820385/a8dc5449-ae4b-485b-99a9-45d7854a3623",
     "deployedLink": "https://raphagil.github.io/Tic-Tac-Toe/",
     "repoLink": "https://github.com/RaphaGil/Tic-Toc-Toe"
+  },
+  {
+    "id": 10,
+    "title": "Investment Calculator",
+    "pitch": "The app provides tools and features that enable users to track their investment performance, analyze market trends, and make informed decisions to achieve their financial goals.",
+    "image": "https://github.com/RaphaGil/Investment-Calculator/assets/128820385/ae5f23e1-f208-4721-aab7-179371fe041b",
+    "deployedLink": "https://raphagil.github.io/Investment-Calculator/",
+    "repoLink": "https://github.com/RaphaGil/Investment-Calculator"
   }
 ]
