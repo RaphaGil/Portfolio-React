@@ -30,20 +30,29 @@ const Projects = () => {
           {projects.map((project) => (
             <Col lg={6} key={project.id}>
               <Card
-                className="mt-5 position-relative shadow-lg border-none"
-           
-                style={{borderRadius: "25px", border: 'none', borderBlockColor: 'transparent', width: '100%'}}
-                onMouseEnter={() => handleMouseEnter(project.id)}
-                onMouseLeave={handleMouseLeave}
-              >
-                <Card.Img
-                  className="d-block border-none"
-                  src={project.image}
-                  style={{
-                    borderBlockColor:'white',
-                    borderRadius: "25px",
-                  }}
-                />
+  className="mt-5 position-relative shadow-lg border-none"
+  style={{
+    borderRadius: "25px",
+    border: "none",
+    width: "100%",
+    height: "100%", // Ensure the card takes full height
+    display: "flex",
+    flexDirection: "column",
+  }}
+  onMouseEnter={() => handleMouseEnter(project.id)}
+  onMouseLeave={handleMouseLeave}
+>
+  <Card.Img
+    className="d-block border-none"
+    src={project.image}
+    style={{
+      borderBlockColor: "white",
+      borderRadius: "25px",
+      height: "100%", // Ensure the image fills the card
+      objectFit: "cover", // Keeps image proportional
+    }}
+  />
+
                 {hoveredCard && hoveredCard.id === project.id && (
                   <div
                     className="position-absolute w-100 d-flex justify-content-center align-items-center  border-none"
