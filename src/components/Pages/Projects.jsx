@@ -21,7 +21,7 @@ const Projects = () => {
     <>
       <PageWrapper>
         <div className="text-center" style={{ fontSize: "24px", border: "none" }}>
-          <h3 className="text-light-emphasis mt-4">P R O J E C T S</h3>
+          <h3 className="text-light-emphasis mt-4">test</h3>
         </div>
         <Row>
           {projects.map((project) => (
